@@ -1,0 +1,63 @@
+Format for creating a variable
+
+Allowed:
+>>> name = 'Itachi'
+>>> name0001 = 'Itachi'
+>>> name_001 = 'Itachi'
+>>> name_brad = 'Itachi'
+
+Not allowed:
+>>> name! = 'Itachi'                     # cannot have a variable name with special characters excpet underscore
+>>> 0001name = 'Itachi'                  # cannot have a variable name starting with an integer
+>>> name-first = 'Itachi'                # cannot have a variable name with special characters except underscore
+>>> if = 'Itachi'                        # cannot have a variable name with certain words, as they are reserved for special functions.
+
+Q.    Where to see the error in the termianl?
+Ans.  There is a ^ (caret sign) below the error.
+
+Expression vs Statement
+
+Expression:
+>>> 2 + 2 
+4
+>>> 'Itachi'
+'Itachi'
+
+Statement:                              # assigning a value to a variable.
+>>> myname = 'Itachi'
+>>> myname
+'Itachi'
+
+Q.   How to copy paste the current line in the next line(shortcut)?
+Ans. shift+alt+down_arrow <-- make sure to keep the cursor at the end of the current line.
+
+Q.   Does Python not allow extra spaces in programing (unless it's string)?
+Line01 = 'Ram'
+     line02 = 'Ravan'
+
+Ans. Yes, it does not allow.
+      The file name becomes red on the left side if there is something wrong.
+      The scroll bar on the right becomes red if there is something wrong.
+      Not to worry, with the latest version of VS Code when we save ctrl+s the file, if we have any unwanted indent it's taken care of.
+
+Q.   Is there any other way of correcting indentation?
+Ans. Yes, copy the whole block of code, then press shift+tab a few times till it makes it correct.
+
+Q.   How to open setting(shortcut)?
+Ans. ctrl+,
+
+Q.   How to check if autoformat is on save in VS Code?
+Ans. ctrl+, > it'll bring up setting > search 'format on save' > It brings up 'Editor: Format on Save', make sure it has check mark.
+      Also, make sure the below 'Editor: Format on save mode' has 'file' selected.
+      Next, search 'python' > formatting: and scroll down > Under 'Python' > Formatting: Provider' make it has 'autopep8'
+
+Q.   How to comment a code?
+Ans. 1. # write a code 
+      2. """
+        write the code
+         """
+      3. Hightlight the code then press ctrl+/ > this will automatically comment the code.
+
+
+
+
