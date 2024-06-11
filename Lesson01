@@ -1,3 +1,0 @@
-# writing the first program in python.
-greeting = 'Hello World!'
-print(greeting)
