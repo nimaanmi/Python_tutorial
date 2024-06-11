@@ -1,0 +1,37 @@
+Open command pallet --> Visual Studio > Explorer > ctrl+shift+p > search 'python: select interpreter' > select 'python 3.12.2'
+Open a terminal     --> Ctrl+shift+` or Terminal(tab) > new terminal || ` is called as Grave Accent
+Open previous closed terminal --> ctrl+`
+Open a 2nd terminal --> click on + sign in terminal on the right side
+Find Python version inside terminal --> py --version
+How to use python commands in terminal --> py > it brings up '>>>' > enter 2+2 > it'll bring 4
+exit a py terminal > quit() or exit()
+
+We assign a string 'Dave' to the variable 'name', then we call that variable 'name' in the next code.
+>>>name = 'Dave'
+>>>name
+'Dave'
+>>>
+
+Q.   What's a python program?
+Ans. We put in a bunch of commands in a file for python to execute, that's called a python program.
+     Python is high level language which uses an interpreter, which is easier for people to read.
+
+
+Always click on X on the right end of the terminal so if you need to bring the previous codes, you use ctrl+`
+
+Q.   Creating a new file
+Ans. Ctrl+n  or  VS > explorer > click on new file 
+     Or
+     From terminal > cd (Go to the correct folder) > type in 'code xxxxx.py' it'll create a python file and save it. 
+
+Q.   Save a file
+Ans. Ctrl+s > xxx.py (make sure python is selected under Save As Type)
+
+Q.   How to show python icon next to a file?
+Ans. Add the extension vscode-icons
+
+Q.   Run a file in terminal.
+Ans. 1. py hello.py (if you are already in that folder).
+     2. top right > click the down arrow beside run > Select 'run python file'
+     3. click on Run icon on top right
+     4. VS > explorer > Folder > file > right click on the file > select 'Run python file in terminal'
