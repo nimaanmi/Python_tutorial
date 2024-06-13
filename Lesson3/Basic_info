@@ -1,0 +1,184 @@
+Python operators: Symbols used to perform operation on values and the variables that hold those values.
+
+Assignment operator
+>>> name = 'Itachi'            # here = is the assignment operator
+>>> name
+'Itachi'
+
+Arithmetic operator
+addition
+>>> 4 + 4                        # here + is the arithmetic operator
+8
+
+subtraction
+>>> 2 - 2
+0
+
+multiplication
+>>> 2 * 7
+14
+
+division
+>>> 24 / 5
+4.8
+
+--- For general info/basic division---
+Division:
+9 ➗ 3 = ?                       # here we have 9 cookies and 3 people, so how do we divide 9 cookies equally?
+9 ➗ 3 = 3                       # we give each person 3 cookies.
+
+9 ➗ 4 = ?                       # here we have 9 cookies and 4 people, so how do we divide 9 cookies equally?  
+                                 # we cannot divide 9 cookies equally among 4 people. Each person gets 2 cookes, making it 8, and 1 is left ofer.
+                                  # the leftover 1 cookie is called a Remainder.
+9 ➗ 4 = 2 with r 1  
+or
+9 ➗ 4 = 2.25 
+
+9  =  Dividend
+4  =  Divisor
+2  =  quotient
+1  =  remainder
+
+Division has 4 parts
+Dividend    # the number which were about to divide
+Divisor     # the number from which we are dividing
+Quotient    # the multiplication that's done with the divisor at the top.    <---------- we always foucs on the quotient.
+Remainder   # the left over numbers.
+-------------------------------
+
+if we do not want a floating/fraction/decimal point and just have the integer, we use //
+>>> 24 // 5
+4
+
+same way we can print the closest integer.
+>>> round(24/5)
+5
+
+we just want the remainder, we use % percentage sign.
+>>> 24 % 5
+4
+>>> 24 % 9
+6
+
+2 to the power of 3, we can use asterisks / star sign * twice
+>>> 2 ** 3
+8
+
+Combining variables and arithmetic operators
+>>> meaning = 42
+>>> meaning += 1
+>>> meaning
+43
+
+>>> meaning -= 1
+>>> meaning
+42
+
+>>> meaning *= 10
+>>> meaning 
+420
+
+>>> meaning /= 10
+>>> meaning 
+420.0                      # it prints a decimal when doing a division.
+
+>>> round(meaning)
+420
+
+>>> meaning
+420.0                      # rounding the variable will only print for that instance, it'll change the variable, we'll have to assign the round function first.
+
+>>> meaning = round(meaning)
+>>> meaning
+420
+
+
+We have one string returned, which has concatinated the previous two strings.
+>>> "Dave" + "Gray"
+'DaveGray'                  # there is no space bewteen the words
+
+>>> "Dave " + "Gray"        # add a space after Dave within the quote.
+'Dave Gray'
+
+>>> 'I have eaten ' + 99 + ' boritos'		<-- we cannot concatinate strings with integer, so we need to convert the integer into string first.
+Error.
+>>> 'I have eaten ' + str(99) + ' boritus'	<-- 
+I have eaten 99 boritus
+
+Q.   How to clear the terminal?
+Ans. Click the 3 dots > select 'Clear Terminal'.
+
+----------------------------------------------------------------------------------------
+Boolean values/ Boolean Flow
+
+>>> 42 == 41	<-- equal to operator
+False
+>>> 42 == 42
+True
+>>> 10 > 5	<-- greater than operator
+True
+>>> 10 < 5	<-- less than operator
+False
+>>> 10 >= 10	<-- greater than or equals to operator
+True
+>>> 10 <= 10	<-- less than or equals to operator
+True
+
+
+Boolean operator (and, or, not)
+Boolean operators are used to control the boolean values.
+
+>>> x = True
+>>> y = False
+>>> z = True
+>>> not x
+False
+>>> not y
+True
+>>> x and y	<-- and boolean value checks if both are true, if anyone is false, it returns false|| It's checking if x and y are true, since y is false, it returns false
+False
+>>> y and x
+False
+>>> x or y	<-- or boolean value checks if anyone value is true, if yes, it returns true.
+True
+
+
+>>> 2 + 2 == 4
+True
+>>> not 2 + 2 == 4
+False
+
+
+sunny = True
+if not sunny == True: 
+   print('It\'n cloudy')
+else:
+   print(It\'s windy')
+
+Output:
+It's windy            # NOT always prints the opposite of what's given.
+
+Same like BODMAS, In Boolean NOT operator is eavluated first, then AND and then OR operator.
+
+
+If else
+
+meaning = 42
+print('')             # this will print empty line
+
+if meaning > 10:
+   print('Right on!')
+else:
+   print('Not today')
+
+Output:
+Right on!
+
+# we can write this if else statement in a single line as well.
+Ternary operator
+
+print('Right on!') if meaning > 10 else print('Not today')
+
+Output:
+Right on!
+
