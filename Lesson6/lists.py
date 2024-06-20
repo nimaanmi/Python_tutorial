@@ -238,5 +238,58 @@ Output:
 5
 ############################################################################################
 
-      
+# how to check the time taken by an object?
+import timeit
 
+list_test = timeit.timeit(stmt='[1, 2, 3, 4, 5]', number=1000000)
+tuple_test = timeit.timeit(stmt='(1, 2, 3, 4, 5)', number=1000000)
+
+print('List test: ', list_test)
+print('Tuple test: ', tuple_test)
+
+Output:
+List test:  0.07566610001958907                                   # it takes more time for a list.
+Tuple test:  0.015406199963763356
+############################################################################################
+
+test1 = ('a')
+print(test1)
+
+test2 = ('a', )
+print(test2)
+
+Output:
+a				                             # If we use just one character/word, it'll print it as a string.
+('a',)				                       # if we do not want it to print it as a string, we need to add a comma at the end of the tuple.
+############################################################################################
+
+# We could also print tuples without using round brakcets / parentheses
+
+test1 = 1,
+test2 = 1, 2,
+test3 = 1, 2, 3,
+
+print(test1)
+print(test2)
+print(type(test3))
+
+Output:
+(1,)
+(1, 2)
+<class 'tuple'>
+############################################################################################
+
+# tuples assisnment or tuples with 1 element
+
+survey = (21, 'Srilanka', False)
+age, country, knows_python = survey
+
+print('Age: ', age)
+print('Country: ', country)
+print('Knows Python? ', knows_python)
+
+Output:
+Age:  21
+Country:  Srilanka
+Knows Python?  False
+     
