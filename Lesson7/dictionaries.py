@@ -349,6 +349,7 @@ Output:
 ########################################################################################
 
 # keep only the duplicates in sets/ duplicate  only duplicates
+
 one = {1, 2, 3}
 two = {2, 3, 4}
 one.intersection_update(two)
@@ -356,3 +357,16 @@ print(one)
 
 Output: 
 {2, 3}
+########################################################################################
+
+# keep everything except the duplicates
+
+one = {1, 2, 3}
+two = {2, 3, 4}
+one.symmetric_difference_update(two)
+print(one)
+
+Output:
+{1, 4}
+########################################################################################
+
