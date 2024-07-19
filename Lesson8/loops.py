@@ -32,7 +32,7 @@ Output:
 7
 8
 9				# it goes 9 times through the loop and exexutes each time and exits when the value reaches 10 as per the while condition.
-			
+########################################################################################
 
 # break 
 # we can also stop a loop in another way besides making the condition true by using a break statement.
@@ -49,6 +49,7 @@ Output:
 3
 4
 5
+########################################################################################
 
 # continue
 value = 1
@@ -68,6 +69,7 @@ Output:
 9
 10
 11
+########################################################################################
 
 # else to a while loop
 
@@ -94,9 +96,7 @@ Output:
 10
 11
 Value is now equal to 11
-===
-===
-===
+########################################################################################
 
 For loop
 
@@ -127,6 +127,7 @@ for x in names:
 
 Output:
 Dave
+########################################################################################
 
 names = ['Dave', 'Sara', 'John']
 for x in names:
@@ -137,6 +138,7 @@ for x in names:
 Output:
 Dave
 John
+########################################################################################
 
 # Ranges
 # We can have for loop that iterates through a range 
@@ -149,6 +151,7 @@ Output:
 1
 2
 3
+########################################################################################
 
 # Just like an index in a list, a range starts from 0.
 
@@ -158,9 +161,9 @@ for x in range(2, 4):
 Output:
 2
 3
+########################################################################################
 
 # It's going to start with the number that we include if we specify a start point but it's not going to end with the number that we include as range starts from 0.
-
 # we can also specify range how to increment, in place of the default increment by 1 each time, we could increment by 5 or any other value.
 
 for x in range(0, 50, 5):
@@ -187,6 +190,7 @@ Output:
 85
 90
 95
+########################################################################################
 
 # else statement with a for loop.
 for x in range(5, 51, 5):
@@ -206,6 +210,7 @@ Output:
 45
 50
 Glad that's over!
+########################################################################################
 
 # Nested loops
 
@@ -248,6 +253,7 @@ name3 + action1
 name3 + action2
 name3 + action3
 And so on...
+########################################################################################
 
 # we are using 2nd list in outer loop, and 1st loop in innter loop.
 
@@ -268,6 +274,7 @@ eats John.
 sleeps Dave.
 sleeps Sara.
 sleeps John.
+########################################################################################
 
 # the same above example but interaching the print items objects
 names = ['Dave', 'Sara', 'John']
@@ -287,11 +294,9 @@ John eats.
 Dave sleeps.
 Sara sleeps.
 John sleeps.
+########################################################################################
 
-
----
 # Nested for loop examples: https://www.youtube.com/watch?v=fX64q6sYom0
----
 
 # we always start the print from the left.
 # It's printed row by row [row are horizontal]. And we cannot go back to the previous row, we have to complete and move forward.
@@ -314,6 +319,7 @@ Output:
 *
 *
 *
+########################################################################################
 
 #We see that the output is line by line. But we want to have it one line.
 
@@ -323,6 +329,7 @@ for j in range(n):
 
 Output:
 *****
+########################################################################################
 
 # we want to print a square using the stars.
 
@@ -338,6 +345,7 @@ Output:
 * * * * *
 * * * * *
 * * * * *
+########################################################################################
 
 Here, i values are in the outer loop (row=horizontal) and j values are in the inner loop(column=vertical).
 i starts with 0, then it goes to inner loop where j starts with 0 and it increments each value 1, 2, 3, 4 and stops at 4 and breaks the loop and goes back to the outer loop.
@@ -358,6 +366,7 @@ Output:
 * * *
 * * * *
 * * * * *
+########################################################################################
 
 Q. Decreasing triangle Pattern
 
@@ -373,6 +382,7 @@ Output:
 * * *
 * *
 *
+########################################################################################
 
 Q Creating a right sided triangle.
 It has 2 triangles. 1st is decreasing space triangle. 2nd is increasing star triangle
@@ -391,6 +401,7 @@ Output:
       * * *
     * * * *
   * * * * *
+  ########################################################################################
 
 Q. Creating a right sided triangle.
 It has 2 triangles. 1st increasing triangle of space, 2nd decreasing triangle of stars
@@ -409,6 +420,7 @@ Output:
       * * *
         * *
           *
+########################################################################################
 
 Q. Creating a hill pattern
 It has 3 triangles. 1st decreasing spaces, 2nd increasing stars, 3rd increasing stars.
@@ -429,6 +441,7 @@ Output:
       * * * * *
     * * * * * * *
   * * * * * * * * *
+  ########################################################################################
 
 Q. Creating a reverse hill pattern
 It has 3 triangles. 1st increasing spaces, 2nd decreasing stars, 3rd decreasing stars
@@ -449,7 +462,7 @@ Output:
       * * * * *
         * * *
           *
-
+########################################################################################
 Q. Diamond patten
 n = 5
 for i in range(n-1):
@@ -479,7 +492,7 @@ Output:
       * * * * *
         * * *
           *
-
+########################################################################################
 
 Q. Pyramid pattern
 
@@ -497,22 +510,7 @@ Output:
    * * *
   * * * *
  * * * * *
-
----
----
----
-
-
-
-
-
-
-
-
-
-
-
----
+########################################################################################
 
 # Nested for loop examples:
 
@@ -531,7 +529,7 @@ Output:
 * * * * *
 * * * * * *
 * * * * * * *
-
+########################################################################################
 
 list_fruits = ['Mango', 'Apple', 'Grapes', 'Banana']
 for fruit in list_fruits:
@@ -544,6 +542,7 @@ M*a*n*g*o*
 A*p*p*l*e*
 G*r*a*p*e*s*
 B*a*n*a*n*a*
+########################################################################################
 
 # print values of items in two lists 
 colour = ['red', 'green', 'blue']
@@ -571,6 +570,7 @@ blue apple
 blue veggies
 
 blue shirt
+########################################################################################
 
 # print right triangle using for loop
 for i in range(11):
@@ -589,6 +589,7 @@ Output:
 * * * * * * * *
 * * * * * * * * *
 * * * * * * * * * *
+########################################################################################
 
 # print right triangle using while loop
 i = 11
@@ -611,6 +612,7 @@ Output:
 * * * * * * * *
 * * * * * * * * *
 * * * * * * * * * *
+########################################################################################
 
 # how to append two lists
 list1 = [10, 25, 30]
@@ -623,6 +625,7 @@ print(result)
 
 Output:
 [70, 25, 60, 85, 40, 75, 90, 45, 80]
+########################################################################################
 
 # multipying two lists:
 list1 = [2, 4, 6]
@@ -641,6 +644,7 @@ Output:
 6 * 2 = 12
 6 * 4 = 24
 6 * 6 = 36
+########################################################################################
 
 # multiplying two lists, excluding if same i == j.
 list1 = [2, 4, 6]
@@ -658,6 +662,7 @@ Output:
 4 * 6 = 24
 6 * 2 = 12
 6 * 4 = 24
+########################################################################################
 
 # print perfect numbers between 1 and 100
 a = 1
@@ -674,6 +679,7 @@ while a <= 100:
 Output:
 Perfect number:  6
 Perfect number:  28
+########################################################################################
 
 # print each elements 5 times
 fruits = ['apple', 'orange', 'kiwi']
@@ -688,7 +694,7 @@ Outut:
 apple apple apple apple apple apple 
 orange orange orange orange orange orange
 kiwi kiwi kiwi kiwi kiwi kiwi
-
+########################################################################################
 
 Examples of while loop:
 
@@ -705,8 +711,7 @@ Focus
 Focus
 Focus
 Focus
-
-2. 
+########################################################################################
 
 i = 1
 while i <= 4:
@@ -723,8 +728,9 @@ Mango Rocks Rocks Rocks Rocks
 Mango Rocks Rocks Rocks Rocks 
 Mango Rocks Rocks Rocks Rocks 
 Mango Rocks Rocks Rocks Rocks 
+########################################################################################
 
-3. Creating a square using stars
+Creating a square using stars
 
 i = 1
 while i <= 4:
@@ -740,8 +746,9 @@ Output:
 * * * *
 * * * *
 * * * *
+########################################################################################
 
-4. Print numbers from 1-100 skipping the numbers divisible by 3 & 5
+Print numbers from 1-100 skipping the numbers divisible by 3 & 5
 
 i = 1
 while i <= 100:
@@ -805,8 +812,9 @@ Output:
 94
 97
 98
+########################################################################################
 
-5. Calculate the sum of numbers until user enters 0
+Calculate the sum of numbers until user enters 0
 
 number = int(input('Enter a number: '))
 
@@ -822,8 +830,7 @@ Enter a number: 7
 Enter a number: 9
 Enter a number: 0
 The sum is:  20
-
-6. 
+########################################################################################
 
 s = 'tomatolala'
 count = 0
@@ -842,8 +849,9 @@ l
 a
 l
 a
+########################################################################################
 
-7. Print Fibonacci numbers from 1 to 10
+Print Fibonacci numbers from 1 to 10
 
 a = 0						# variable a is assigned 0
 b = 1						# variable b is assigned 1
@@ -864,4 +872,5 @@ Output:
 13
 21
 34
+########################################################################################
 
