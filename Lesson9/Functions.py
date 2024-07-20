@@ -3,6 +3,7 @@ Functions are reusable blocks of code, and when we call a funciton it runs the b
 
 define a function
 name the function
+enter the block of code to perform inside the function
 call the function.
 
 def hello():					# we define the function by 'def' and we name the function by hello(),, make sure to use the paranthesis/round brackets.
@@ -13,12 +14,11 @@ hello()						# we are calling that function, make sure to use the name of the fu
 
 Output:
 Hello world!
-
+########################################################################################
 
 How to name a function
 1. hello()					# all lowered letters
 2. hello_world()				# separating two words with underscor
-
 
 Sometimes functions need to receive data and we can use placeholders for that data. Those placeholders are called parameters.
 When we call the function and we pass in the actual data, we are passing in arguments.
@@ -31,8 +31,7 @@ sum(2, 3)
 
 Output:
 5
----
-
+########################################################################################
 
 A distinction between parameters and arguments that we pass in, is that parameters never change however arguments can change with every function call.
 All of the function calls are reusing the code that we defined for our function sum.
@@ -49,7 +48,7 @@ Output:
 5
 12
 1003
----
+########################################################################################
 
 Our function isn't really too useful if it just prints this value to the console, we might want to return that value and use in our program
 So in place of print, we use return which returns the value - the total of the two parameters.
@@ -63,13 +62,12 @@ print(total)
 
 Output:
 4
----
+########################################################################################
 
 Right now our sum function is a very basic function and we are just assuming that two numbers will be passed in but we can't always make those assumptions when we are writing programs.
 So, let's verify that we're actually receiving numbers because if we passed in strings right now they could be concatenated together because it would just push the two strings, that would also work but that's not what we want our sum function to do 
 
 Example: 
-
 
 def sum(num1, num2):
     if (type(num1) is not int or type(num2) is not int):
@@ -82,8 +80,7 @@ print(total)
 
 Output
 None						# It's a special value in Python, it's not True or False, it's just None.							
----
-
+########################################################################################
 
 What happens if nothing is passed in?
 
@@ -98,7 +95,7 @@ print(total)
 
 Output:
 TypeError: sum() missing 2 required positional arguments: 'num1' and 'num2'
----
+########################################################################################
 
 We could give default values for the parameters in case if nothing is passed in as arguments.
 For this example we are providing just 1 parameter as a default value.
@@ -114,7 +111,7 @@ print(total)
 
 Output:
 4
----
+########################################################################################
 
 If the user doesn't enter any arguments, in that case we can set the default parameter value to 0, so that it doesn't come up with an error.
 
@@ -129,7 +126,7 @@ print(total)
 
 Output:
 0
----
+########################################################################################
 
 In place of returning NONE when an int is not entered, we can set that to 0
 
@@ -144,7 +141,7 @@ print(total)
 
 Output:
 3
----
+########################################################################################
 
 If we have an unknown amount of arguments
 If we have an unknown amount of arguments that will be passed into our function, we can define the parameters. We need to have just one parameter name starting with an asterisk/* sign (common practice is to use *args which is short for arguments but it can be anything) which will make the data inside the function a tuple.
@@ -160,7 +157,7 @@ multiple_items(1, 2, 'Sara')
 Output:
 (1, 2, 'Sara')
 <class 'tuple'>
----
+########################################################################################
 
 The unknown amount of arguments have values and are represented in the parameter area. They don't have parameter names.
 If we want to use keyword arguments we have to start the parameter with 2 asterisks/2 star signs. **kwargs stands for keyword arguments
@@ -176,5 +173,7 @@ sum(first='Dave', last='Gary')
 Output:
 {'first': 'Dave', 'last': 'Gary'}
 <class 'dict'>
+########################################################################################
+
 
 
