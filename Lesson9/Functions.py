@@ -1,6 +1,9 @@
 Functions:
 Functions are reusable blocks of code, and when we call a funciton it runs the block of code inside the function.
 
+If we are writing the same block of code again and again it's a bad practice.
+In its place we can create a function and enter that block of code inside it and call that function whereever we need it.
+
 define a function
 name the function
 enter the block of code to perform inside the function
