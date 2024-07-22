@@ -4,6 +4,15 @@ Functions are reusable blocks of code, and when we call a funciton it runs the b
 If we are writing the same block of code again and again it's a bad practice.
 In its place we can create a function and enter that block of code inside it and call that function whereever we need it.
 
+There are 2 types of functions: 
+# 1. built in functions: it's already defined by someone and we are using it.
+        Example:
+        print()
+        len()
+        type()
+        range()
+# 2. User defined functions: we can define a function from our end
+
 define a function
 name the function
 enter the block of code to perform inside the function
