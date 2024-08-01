@@ -13,7 +13,7 @@ def play_rps():
         '\nEnter........\n1 for Rock\n2 for Paper \n3 for Scissor\n\n')
     if (playerchoice not in ['1', '2', '3']):
         print('You need to enter 1, 2, or 3')
-        play_rps()
+        return play_rps()
     player = int(playerchoice)
 
     computerchoice = random.choice('123')
