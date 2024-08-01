@@ -19,7 +19,7 @@ greeting('John')
 Output:
 blue
 John
----
+########################################################################################
 
 # Global scope
 
@@ -37,7 +37,7 @@ greeting()
 Output:
 blue
 Dave
----
+########################################################################################
 
 # It's not possible to call a local variable outside of that function anywhere else.
 
@@ -51,7 +51,7 @@ print(colour)				# it'll just not work, it'll come up with error during the code
 
 Output:
 NameError: name 'colour' is not defined
----
+########################################################################################
 
 # we can also call one function inside another function.
 
@@ -75,7 +75,7 @@ blue
 John
 blue
 Dave
----
+########################################################################################
 
 # we can also define one function inside another function.
 
@@ -98,7 +98,7 @@ Dave
 # Why do we need a funciton inside a funciton?
 # It's helpful when we are workig on a team with other developers. 
 # So, we try to keep the global scope as unpolluted or with as few things as possible and we try to put everything else inside of functions.
----
+########################################################################################
 
 # we cannot call a child function outside of the parent function.
 
@@ -117,7 +117,7 @@ greeting()
 
 Output:
 NameError: name 'greeting' is not defined
----
+########################################################################################
 
 # what if we want to modify the assignment of a variable inside of a function but the variable was initially defined in the global scope?
 
@@ -133,7 +133,7 @@ another()
 
 Output:
 2					# What it does here is it creates a new variable called count inside the function. It's not modifying the global variable.
----
+########################################################################################
 
 Same way
 
@@ -149,7 +149,7 @@ another()
 
 Output:
 UnboundLocalError: cannot access local variable 'count' where it is not associated with a value
----
+########################################################################################
 
 # we can modify the global variable inside a function like this.
 # if we want to modify a global variable inside a function, we'll have to use the global keyword before the variable name on one line, then modify it on the next line.
@@ -168,7 +168,7 @@ another()
 
 Output:
 2
----
+########################################################################################
 
 # we can also modify a variable inside a parent function from child function
 
@@ -189,12 +189,6 @@ another()
 Output:
 blue
 red
----
-
-
-
-
-
-
+########################################################################################
 
 
