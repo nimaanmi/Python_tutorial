@@ -36,7 +36,7 @@ Tommy has 2 coins left.
 Tommy has 1 coin left.
 
 Jenny has 2 coins left.
----
+########################################################################################
 
 # The scope can also be as a parameter inside the parentheses of the parent function.
 # Creating a nested function and using closure accessing a value from the parent function is one good way to avoid creating global variables.
@@ -74,4 +74,4 @@ Tommy has 1 coin left.
 Jenny has 4 coins left.
 
 Tommy is out of coins.
----
+########################################################################################
