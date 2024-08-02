@@ -1,3 +1,5 @@
+# return can only be used within a function.
+
 import sys
 import random
 from enum import Enum
