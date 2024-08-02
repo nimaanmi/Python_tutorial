@@ -47,7 +47,7 @@ def play_rps():
             break
 
     if (play_again.lower() == 'y'):
-        play_rps()
+        return play_rps()
     else:
         print('🎉🎉🎉')
         print('Thank you for playing!')
