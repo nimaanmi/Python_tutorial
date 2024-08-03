@@ -39,7 +39,7 @@ def play_rps():
         elif player == computer:
             return '😱 It\'s a draw!'
         else:
-            return '🐍 Computer wins!'
+            return '🐍 Python wins!'
 
     game_result = decide_winner(player, computer)
     print(game_result)
