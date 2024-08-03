@@ -26,7 +26,7 @@ elif player == 3 and computer == 2:
 elif player == computer:
     print('It\'s a draw')
 else:
-    print('Computer wins')
+    print('Python wins')
 
 
 Output:
