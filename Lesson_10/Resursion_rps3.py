@@ -35,7 +35,7 @@ def play_rps():
     elif player == computer:
         print('😱 It\'s a draw!')
     else:
-        print('🐍 Computer wins!')
+        print('🐍 Python wins!')
 
     print('\nPlay again?')
 
