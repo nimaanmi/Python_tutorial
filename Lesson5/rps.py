@@ -14,7 +14,7 @@ computerchoice = random.choice('123')
 computer = int(computerchoice)
 print('')
 print('You chose ' + playerchoice)
-print('Computer chose ' + computerchoice)
+print('Python chose ' + computerchoice)
 print('')
 
 if player == 1 and computer == 3:
