@@ -39,7 +39,7 @@ while playagain:
     elif player == computer:
         print('😱It\'s a draw!')
     else:
-        print('🐍Computer wins!')
+        print('🐍 Python wins!')
 
     playagain = input('Play again? /nY for Yes\nQ for Quit\n\n')
     if playagain.lower() == 'y':
