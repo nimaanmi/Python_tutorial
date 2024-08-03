@@ -26,8 +26,8 @@ while playagain:
     computer = int(computerchoice)
 
     print()
-    print('Player entered:', str(RPS(player)).replace('RPS.', ''))
-    print('Computer entered: ', str(RPS(computer)).replace('RPS.', ''))
+    print('\nPlayer entered: ' + str(RPS(player)).replace('RPS.', ''))
+    print('Computer entered: ' + str(RPS(computer)).replace('RPS.', ''))
     print()
 
     if player == 1 and computer == 3:
