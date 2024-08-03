@@ -26,7 +26,7 @@ def play_rps():
 
     print()
     print('\nPlayer entered: ' + str(RPS(player)).replace('RPS.', ''))
-    print('Computer entered: ' + str(RPS(computer)).replace('RPS.', ''))
+    print('Python entered: ' + str(RPS(computer)).replace('RPS.', ''))
     print()
 
     def decide_winner(player, computer):
