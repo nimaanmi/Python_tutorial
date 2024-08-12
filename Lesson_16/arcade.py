@@ -1,4 +1,4 @@
-#
+# This is the main file. We run this in the terminal which allows us to call the other two modules.
 
 import sys
 from rps import rps
