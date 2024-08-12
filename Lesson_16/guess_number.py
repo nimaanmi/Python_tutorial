@@ -61,7 +61,10 @@ def guess_number(name='playerOne'):
             print('Thank you for playing!')
             if __name__ == '__main__':
                 sys.exit('Bye {name}!👋')
+                # we are calling the guess_my_number() function directly from this file.
             else:
+                # if not, if it's called from the arcade we say else: and return (have an empty return)
+                # so we go back working with the code in the arcade file.
                 return
 
     return play_guess_number
