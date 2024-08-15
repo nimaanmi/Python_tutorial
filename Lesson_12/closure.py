@@ -76,6 +76,8 @@ Jenny has 4 coins left.
 Tommy is out of coins.
 ########################################################################################
 
+https://www.freecodecamp.org/news/first-class-functions-and-closures-in-python/
+
 # Indepth understading of closure
 
 # 1. Basic Nested Function with Immediate Execution
