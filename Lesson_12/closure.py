@@ -75,3 +75,57 @@ Jenny has 4 coins left.
 
 Tommy is out of coins.
 ########################################################################################
+
+# Indepth understading of closure
+
+# 1. Basic Nested Function with Immediate Execution
+    
+def outer_scope():
+    name = 'Sam'
+    city = 'New York'
+
+    def inner_scope():
+        print(f"Hello {name}, Greetings from {city}")
+
+    return inner_scope()
+    
+outer_scope()
+
+Output: 
+"Hello Sam, Greetings from New York".
+
+# In this example, the outer_scope function defines two local variables: name and city.
+# It then defines and immediately calls inner_scope, which prints a greeting message using the name and city variables from the enclosing scope.
+# When outer_scope is called, the nested function inner_scope runs, producing the greeting message: "Hello Sam, Greetings from New York".
+########################################################################################
+    
+# 2. Returning the Inner Function
+# Now, let's modify the example to return the inner function without executing it immediately:
+
+def outer_scope():
+    name = 'Sam'
+    city = 'New York'
+
+    def inner_scope():
+        print(f"Hello {name}, Greetings from {city}")
+
+    return inner_scope
+    
+# Assigning the inner function to a variable
+greeting_func = outer_scope()
+
+# Calling the inner function
+greeting_func()
+
+Output:
+"Hello Sam, Greetings from New York".
+
+# Here, outer_scope defines name and city as variables similarly to the above example.
+# It then defines and returns the inner_scope function but this time without calling it (that is, inner_scope instead of inner_scope()),
+# When greeting_func = outer_scope() is executed, it assigns the inner_scope function returned by outer_scope to greeting_func.
+# Now, greeting_func holds a reference to the inner_scope function. Calling greeting_func() executes inner_scope, which prints: "Hello Sam, Greetings from New York".
+# Even though outer_scope has finished executing by the time we call greeting_func(), the inner_scope function (now referenced by greeting_func) retains access to the variables name and city from its enclosing scope.
+# This is what makes it a closure – it "closes over" the variables from its containing scope.
+########################################################################################
+
+    
