@@ -128,4 +128,34 @@ Output:
 # This is what makes it a closure – it "closes over" the variables from its containing scope.
 ########################################################################################
 
-    
+# Maintaining State in GUI Applications
+# In Python, closures can be used to maintain state in graphical user interface (GUI) applications, such as those created with Tkinter [https://github.com/samyuii/Tkinter-V3].
+
+import tkinter as tk
+
+def create_counter():
+    count = 0
+    def counter():
+        nonlocal count
+        count += 1
+        print(f'Button clicked {count} times')
+    return counter
+
+root = tk.Tk()
+root.title('Counter Example')
+
+counter = create_counter()
+button = tk.Button(root, text='Click me', command=counter)
+button.pack(pady=20)
+
+root.mainloop()
+
+Explanation:
+1. create_counter is a higher-order function that initializes count to 0 and defines a nested counter function.
+2. The counter function is a closure that captures the count variable from the enclosing scope.
+3. The nonlocal keyword allows the closure to modify the count variable.
+4. Each time the button is clicked, the counter function is invoked, and it increments and prints the count.
+
+########################################################################################
+
+
