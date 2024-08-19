@@ -1,3 +1,5 @@
+https://www.oreilly.com/library/view/functional-programming-in/9781492048633/ch04.html
+
 Lambda and Higher Order Functions.
 
 A lambda function is a small anonymous function that can take any number of arguments, but can only have one expression.
@@ -99,6 +101,7 @@ Ouput:
 ########################################################################################
 
 https://www.freecodecamp.org/news/first-class-functions-and-closures-in-python/
+https://www.oreilly.com/library/view/functional-programming-in/9781492048633/ch04.html
 
 # Higher Oder Functions:
 
@@ -160,7 +163,9 @@ Output:
 80.0
 50.0
 ########################################################################################
+https://www.oreilly.com/library/view/functional-programming-in/9781492048633/ch04.html
 ########################################################################################
+
 
 # map() function
 map is a higher order function that receives a function as the first argument and iterator/list as the 2nd argument.
