@@ -47,9 +47,6 @@ If the triangle with these sides is right, create an instance of the class Right
 If the triangle is not right, print "Not right".
 '''
 
-
-#################
-
 class RightTriangle:
     def __init__(self, hyp, leg_1, leg_2):
         self.c = hyp
@@ -71,24 +68,5 @@ if input_c**2 == input_a**2 + input_b**2:
 else:
     print("Not right")
 
-
-class RightTriangle:
-    def __init__(self, hyp, leg_1, leg_2):
-        self.hyp = hyp
-        self.leg_1 = leg_1
-        self.leg_2 = leg_2
-        # calculate the area of the right triangle
-        self.area = 0.5 * self.leg_1 * leg_2
-
-
-# read input
-input_hyp, input_leg_1, input_leg_2 = [int(x) for x in input().split()]
-
-# check if the given sides form a right triangle.
-if input_hyp**2 == input_leg_1**2 + input_leg_2**2:
-    triangle = RightTriangle(input_hyp, input_leg_1, input_leg_2)
-    print(f'{triangle:.1f}')
-else:
-    print('Not right!')
 
 ########################################################################################
