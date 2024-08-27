@@ -28,3 +28,67 @@ nile.get_info()
 # we could also call the method in a different way.
 # class.method(self)
 River.get_info(ganga)
+
+
+########################################################################################
+
+#Right triangle
+     A right triangle is a triangle in which one angle is a right angle (90-degree angle).
+The side opposite to the right angle is called a hypotenuse and the other two sides are called legs (or catheti).
+The Pythagorean theorem holds for right triangles with integer lengths of all sides:
+c**2 = a**2 + b**2, where c is the length of the hypotenuse, and a and b are the lengths of the legs.
+ 
+Here's a class RightTriangle with the class constructor. The constructor is missing the area attribute. Calculate the area S according to this formula:
+S = (1/2)ab
+
+Three numbers ( input_c, input_a, and input_b) have already been read from the input.
+They represent a triangle: the first number is the length of the supposed hypotenuse, the other two are the legs.
+If the triangle with these sides is right, create an instance of the class RightTriangle and print its area (with one decimal).
+If the triangle is not right, print "Not right".
+'''
+
+
+#################
+
+class RightTriangle:
+    def __init__(self, hyp, leg_1, leg_2):
+        self.c = hyp
+        self.a = leg_1
+        self.b = leg_2
+        # Calculate the area of the right triangle
+        self.area = 0.5 * self.a * self.b
+
+
+# Read input
+input_c, input_a, input_b = [int(x) for x in input().split()]
+
+# Check if the given sides form a right triangle
+if input_c**2 == input_a**2 + input_b**2:
+    # Create an instance of RightTriangle
+    triangle = RightTriangle(input_c, input_a, input_b)
+    # Print the area with one decimal place
+    print(f"{triangle.area:.1f}")
+else:
+    print("Not right")
+
+
+class RightTriangle:
+    def __init__(self, hyp, leg_1, leg_2):
+        self.hyp = hyp
+        self.leg_1 = leg_1
+        self.leg_2 = leg_2
+        # calculate the area of the right triangle
+        self.area = 0.5 * self.leg_1 * leg_2
+
+
+# read input
+input_hyp, input_leg_1, input_leg_2 = [int(x) for x in input().split()]
+
+# check if the given sides form a right triangle.
+if input_hyp**2 == input_leg_1**2 + input_leg_2**2:
+    triangle = RightTriangle(input_hyp, input_leg_1, input_leg_2)
+    print(f'{triangle:.1f}')
+else:
+    print('Not right!')
+
+########################################################################################
