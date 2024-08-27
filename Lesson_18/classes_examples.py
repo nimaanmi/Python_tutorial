@@ -113,4 +113,22 @@ student = Student(name, last_name, birth_year)
 # print the student_id
 print(student.student_id)
 ########################################################################################
+# Class instances
+#      Movie night
+#      Write the class Movie and define the class constructor with such parameters as the title, director, and the year of release.
+# In the corresponding variables defined below, create such objects as "Titanic" (James Cameron, 1997), "Star Wars" (George Lucas, 1977), and "Fight Club" (David Fincher, 1999).
+
+class Movie:
+    # create class here
+    def __init__(self, title, director, year_of_release):
+        self.title = title
+        self.director = director
+        self.year_of_release = year_of_release
+
+
+# objects of the class Movie
+titanic = Movie('Titanic', 'James Cameron', 1997)
+star_wars = Movie('Star Wars', 'George Lucas', 1977)
+fight_club = Movie('Fight Club', 'David Fincher', 1999)
+########################################################################################
 
