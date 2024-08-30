@@ -415,3 +415,122 @@ Moves away...
 # Child class, derived class, and subclass to refer to classes that inherit from other classes.
 
 # Creating and initializing objects of a given class is a fundamental step in object-oriented programming. This step is often referred to as object construction or instantiation. The tool responsible for running this instantiation process is commonly known as a class constructor.
+########################################################################################
+
+# Abstract Classes and Abstract Methods
+
+# An abstract class can be considered a blueprint for other classes.
+# It allows you to create a set of methods that must be created within any child classes built from the abstract class.
+
+# A class that contains one or more abstract methods is called an abstract class.
+# An abstract method is a method that has a declaration but does not have an implementation.
+
+# We use an abstract class while we are designing large functional units or when we want to provide a common interface for different implementations of a component. 
+
+# Working on Python Abstract classes 
+# By default, Python does not provide abstract classes.
+# Python comes with a module that provides the base for defining Abstract Base classes(ABC) and that module name is ABC.
+
+# ABC works by decorating methods of the base class as an abstract and then registering concrete classes as implementations of the abstract base.
+# A method becomes abstract when decorated with the keyword @abstractmethod.
+
+Example: 
+# This code defines an abstract base class called “Polygon” using the ABC (Abstract Base Class) module in Python.
+# The “Polygon” class has an abstract method called “noofsides” that needs to be implemented by its subclasses.
+# There are four subclasses of “Polygon” defined: “Triangle,” “Pentagon,” “Hexagon,” and “Quadrilateral.”
+# Each of these subclasses overrides the “noofsides” method and provides its own implementation by printing the number of sides it has.
+
+# In the driver code, instances of each subclass are created, and the “noofsides” method is called on each instance to display the number of sides specific to that shape.
+
+
+from abc import ABC, abstractmethod
+
+
+class Polygon(ABC):
+
+    @abstractmethod
+    def noofsides(self):
+        pass
+
+
+class Triangle(Polygon):
+
+    # overriding abstract method
+    def noofsides(self):
+        print("I have 3 sides")
+
+
+class Pentagon(Polygon):
+
+    # overriding abstract method
+    def noofsides(self):
+        print("I have 5 sides")
+
+
+class Hexagon(Polygon):
+
+    # overriding abstract method
+    def noofsides(self):
+        print("I have 6 sides")
+
+
+class Quadrilateral(Polygon):
+
+    # overriding abstract method
+    def noofsides(self):
+        print("I have 4 sides")
+
+
+# Driver code
+R = Triangle()
+R.noofsides()
+
+K = Quadrilateral()
+K.noofsides()
+
+R = Pentagon()
+R.noofsides()
+
+K = Hexagon()
+K.noofsides()
+
+Output: 
+I have 3 sides
+I have 4 sides
+I have 5 sides
+I have 6 sides
+########################################################################################
+
+# Concrete Methods in Abstract Base Classes
+
+# Concrete classes contain only concrete (normal) methods whereas abstract classes may contain both concrete methods and abstract methods.
+# The concrete class provides an implementation of abstract methods, the abstract base class can also provide an implementation by invoking the methods via super().
+# Let look over the example to invoke the method using super(): 
+
+# Python program invoking a 
+# method using super()
+from abc import ABC
+
+class R(ABC):
+    def rk(self):
+        print("Abstract Base Class")
+
+class K(R):
+    def rk(self):
+        super().rk()
+        print("subclass ")
+
+# Driver code
+r = K()
+r.rk()
+
+Output: 
+Abstract Base Class
+subclass 
+
+
+In the above program, we can invoke the methods in abstract classes by using super(). 
+########################################################################################
+
+https://www.geeksforgeeks.org/abstract-classes-in-python/
+
