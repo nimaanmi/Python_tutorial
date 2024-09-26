@@ -118,4 +118,47 @@ Execution completed.
 # all these are inbuilt exception types.
 # except Exception is always used at the end of the try and except, if we used it in the starting it'll ignore any except below it.
 ########################################################################################
+# How to raise custom built exceptions.
 
+def addNumbers(num1, num2):
+    return (num1 + num2)
+
+
+print(addNumbers(2, 3))
+print(addNumbers(10, 5))
+print(addNumbers('a', 'b'))
+print(addNumbers(99, 1))
+print('Execution completed.')
+
+Output:
+5
+15
+ab
+100
+Execution completed.
+
+# Here it doesn't give any exception error for the 3rd output coz in python using + sign for strings concatenates the two strings.
+
+def addNumbers(num1, num2):
+    try:
+        if (isinstance(num1, int) or isinstance(num1, float) and isinstance(num2, int) or isinstance(num2, float)):
+            return (num1 + num2)
+        else:
+            raise Exception('Only integer and float values are allowed.')
+    except Exception as error:
+        return (error)
+
+
+print(addNumbers(2, 3))
+print(addNumbers(10, 5))
+print(addNumbers('a', 'b'))
+print(addNumbers(99, 1))
+print('Execution completed.')
+
+Output:
+5
+15
+Only integer and float values are allowed.
+100
+Execution completed.
+########################################################################################
