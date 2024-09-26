@@ -1,13 +1,13 @@
 Example-1a: 
 
-def addNumers(num1, num2):
+def addNumbers(num1, num2):
     return (num1 + num2)
 
 
-print(addNumers(2, 3))
-print(addNumers(10, 5))
-print(addNumers(2, 'a'))
-print(addNumers(99, 1))
+print(addNumbers(2, 3))
+print(addNumbers(10, 5))
+print(addNumbers(2, 'a'))
+print(addNumbers(99, 1))
 print('Execution completed.')
 
 Output:
@@ -20,17 +20,17 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 Example-1b: 
 
-def addNumers(num1, num2):
+def addNumbers(num1, num2):
     try:
         return (num1 + num2)
     except TypeError:
         return ('Invalid input')
 
 
-print(addNumers(2, 3))
-print(addNumers(10, 5))
-print(addNumers(2, 'a'))
-print(addNumers(99, 1))
+print(addNumbers(2, 3))
+print(addNumbers(10, 5))
+print(addNumbers(2, 'a'))
+print(addNumbers(99, 1))
 print('Execution completed.')
 
 Output: 
