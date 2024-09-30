@@ -106,3 +106,31 @@ Output:
 Please do not divide by zero.
 I'm going to print with or without error.
 ########################################################################################
+# raising custom exceptions.
+
+class JustNotCoolError(Exception):
+    pass
+
+
+x = 2
+try:
+    raise JustNotCoolError('This isn\'t just cool.')
+    # raise Exception('I\'m a custom exception.')
+    # print(x/1)
+    # if not type(x) is str:
+    #     raise TypeError('only strings are allowed.')
+except ZeroDivisionError:
+    print('Please do not divide by zero.')
+except NameError:
+    print('NameError means that something is probably undefined.')
+except Exception as error:
+    print(error)
+else:
+    print('No errors!')
+finally:
+    print('Finally prints regardless of try and except raise and error or not.')
+
+Output: 
+This isn't just cool.
+Finally prints regardless of try and except raise and error or not.
+########################################################################################
