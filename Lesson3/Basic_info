@@ -109,6 +109,8 @@ Q.   How to clear the terminal?
 Ans. Click the 3 dots > select 'Clear Terminal'.
 
 ----------------------------------------------------------------------------------------
+Comparison operators — operators that compare values and return true or false . The operators include: > , < , >= , <= , === , and !==
+
 Boolean values/ Boolean Flow
 
 >>> 42 == 41	<-- equal to operator
