@@ -64,7 +64,7 @@ we just want the remainder, we use % percentage sign.
 >>> 2 ** 3
 8
 
-Combining variables and arithmetic operators
+Combining assignment operator and arithmetic operator
 >>> meaning = 42
 >>> meaning += 1
 >>> meaning
