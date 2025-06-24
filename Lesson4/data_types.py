@@ -386,6 +386,39 @@ Output:
 <class 'int'>
 #################################################################################### 
 
+Python String count() Method
+
+# The count() method in Python returns the number of times a specified substring appears in a string.
+# It is commonly used in string analysis to quickly check how often certain characters or words appear.
+
+s = "hello world"
+res = s.count("o")
+print(res)
+
+Output:
+2                                    # Because o is found twice in the string s.
+
+Counting Words in String
+
+s = "Python is fun and Python is powerful."
+print(s.count("Python"))
+
+Output: 
+2                                    # Because the word Python is written twice in the string s
+
+Count Substring Occurrences with Start and End parameter
+
+s = "apple banana apple grape apple"
+substring = "apple"
+
+# Using start and end parameters to count occurrences 
+# of "apple" within a specific range
+res = s.count(substring, 1, 20)  
+print(res)
+
+Output: 
+1                                    # Because the world 'apple' is found once from the index 1 to index 20. 
+#################################################################################### 
 
 
 
