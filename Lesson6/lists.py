@@ -1,3 +1,7 @@
+
+Arrays / Data Structures: 
+In python arrays are called data structures or collections which refer to container data types that are used to store and organize multiple itmes or values.
+
 # Python collections (Arrays)  [Array starts with 0 and not 1]
 # There are 4 collection data types in the Python programming language:
 1. List              List is a collection which is ordered and changeable. Allows duplicate members
