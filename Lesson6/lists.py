@@ -42,24 +42,35 @@ print(users[1])                      # prints the second item in the list.
 print(users[2])                      # prints the third item in the list.
 print(users[-1])                     # prints the last item in the list.
 
-print(users.index('Sara'))           # How to know the position/index of a specific value.
-print(users[0:])                     # prints all the times in the list from the first position.
-print(users[:2])                     # pritns the items from first position to 2nd postion, (excludes the thirst as it's inclusive)
-print(users[-3: -1])                 # we can also use negative, -1 is the last position, -2 before that and so on.
-print(len(users))                    # prints the length of the list items.
-
 Output:
 Dave
 John
 Sara
 Sara
 
+# How to know the position/index of a specific value?
+
+print(users.index('Sara'))          
+
+Output:
 2
+
+# How to check a range of values?
+
+print(users[0:])                     # prints all the times in the list from the first position.
+print(users[:2])                     # pritns the items from first position to 2nd postion, (excludes the thirst as it's inclusive)
+print(users[-3: -1])                 # we can also use negative, -1 is the last position, -2 before that and so on.
+
+Output:
 ['Dave', 'John', 'Sara']
 ['Dave', 'John']
-['John', 'Sara']
-4
-['Dave', 'John', 'Sara', 'Elsa']
+['Dave', 'John']
+
+# How to find the length ofa list?
+
+print(len(users)) 
+
+Output:
 3
 ############################################################################################
 
