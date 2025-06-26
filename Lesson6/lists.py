@@ -74,7 +74,7 @@ Output:
 ['Dave', 'John']
 ['Dave', 'John']
 
-# How to find the length ofa list?
+# How to find the length of a list?
 
 print(len(users)) 
 
