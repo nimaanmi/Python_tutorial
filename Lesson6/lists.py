@@ -33,7 +33,7 @@ True
 False
 ############################################################################################
 
-# How to get a specific item from a list and we know what position it is in. Remember, lists starts with 0 index.
+# How to get a specific item/value from a list and we know what position it is in. Remember, lists starts with 0 index.
 
 users = ['Dave', 'John', 'Sara']
 
