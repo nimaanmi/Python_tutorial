@@ -33,6 +33,8 @@ True
 False
 ############################################################################################
 
+# How to get a specific item from a list and we know what position it is in. Remember, lists starts with 0 index.
+
 users = ['Dave', 'John', 'Sara']
 
 print(users[0])                      # prints the first item in the list.
