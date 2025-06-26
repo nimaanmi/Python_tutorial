@@ -13,9 +13,11 @@ In python arrays are called data structures or collections which refer to contai
 List
 A list is a data structure in python that is changeable, ordered sequence of elements within a square bracket, each element or values inside a list is called an item.
 
+Lists are created using square brackets:
+
 users = ['Dave', 'John', 'Sara']
-data = ['Dave', 42, True]
-emptylist = []
+data = ['Dave', 42, True]                         # List is not limited to string data type or anyone data type. 
+emptylist = []                                    # we can also have empty list.
 
 # How to check if a value/item is present inside a list or not?  We use in / not in membership operator.
 
