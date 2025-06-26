@@ -59,7 +59,7 @@ Output:
 1
 2
 
-# How to check/get a range of values in a list?
+# How to check or get a range of values in a list?
 
 print(users[0:])                     # prints all the times in the list from the first position.
 print(users[:2])                     # pritns the items from first position to 2nd postion, (excludes the thirst as it's inclusive)
