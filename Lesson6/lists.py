@@ -61,12 +61,16 @@ Output:
 
 # How to check or get a range of values in a list?
 
-print(users[0:])                     # prints all the times in the list from the first position.
-print(users[:2])                     # pritns the items from first position to 2nd postion, (excludes the thirst as it's inclusive)
-print(users[-3: -1])                 # we can also use negative, -1 is the last position, -2 before that and so on.
+print(users[:])                    # prints all the items in the list.
+print(users[0:])                   # prints all the items in the list from the first position.
+print(users[1:2])                  # prints the items from index 1 but excludes index 2.
+print(users[0:2])                  # prints all the items from index 0 but excludes the index 2.
+print(users[-3:-1])                # we can also use negative, -1 is the last position, -2 before that and so on. Again, it'll exclude the -1 index.
 
 Output:
 ['Dave', 'John', 'Sara']
+['Dave', 'John', 'Sara']
+['John']
 ['Dave', 'John']
 ['Dave', 'John']
 
