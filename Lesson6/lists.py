@@ -55,7 +55,7 @@ print(users.index('Sara'))
 Output:
 2
 
-# How to check a range of values?
+# How to check/get a range of values?
 
 print(users[0:])                     # prints all the times in the list from the first position.
 print(users[:2])                     # pritns the items from first position to 2nd postion, (excludes the thirst as it's inclusive)
