@@ -48,7 +48,7 @@ John
 Sara
 Sara
 
-# How to get the position of an item/value in a list?
+# How to get the position/index of an item/value in a list?
 
 print(users.index('Sara'))          
 
