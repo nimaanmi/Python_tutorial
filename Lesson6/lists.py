@@ -24,12 +24,13 @@ emptylist = []                                    # we can also have empty list.
 print('Dave' in users)               We use in / not in membership operator.
 print('Dave' in data)
 print('Dave' in emptylist)
+print(users)
 
 Output:
-['Dave', 'John', 'Sara']
 True
 True
 False
+['Dave', 'John', 'Sara']
 ############################################################################################
 
 # How to get a specific item/value from a list and we know what position it is in. Remember, lists starts with 0 index.
