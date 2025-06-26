@@ -50,9 +50,13 @@ Sara
 
 # How to get the position/index of an item/value in a list?
 
-print(users.index('Sara'))          # use the list method called index()
+print(users.index('Dave'))          # use the list method called index()
+print(users.index('John'))
+print(users.index('Sara'))
 
 Output:
+0
+1
 2
 
 # How to check/get a range of values in a list?
