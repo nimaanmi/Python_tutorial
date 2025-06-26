@@ -17,6 +17,7 @@ users = ['Dave', 'John', 'Sara']
 data = ['Dave', 42, True]
 emptylist = []
 
+# How to check if a value is present inside a list or not?
 # We can use in / not in membership operator to check if an element / value / item is present inside a list or not.
 
 print(users)
