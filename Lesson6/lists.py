@@ -48,7 +48,7 @@ John
 Sara
 Sara
 
-# How to check an index/position of an item/value?
+# How to get an index/position of an item/value?
 
 print(users.index('Sara'))          
 
