@@ -19,10 +19,9 @@ users = ['Dave', 'John', 'Sara']
 data = ['Dave', 42, True]                         # List is not limited to string data type or anyone data type. 
 emptylist = []                                    # we can also have empty list.
 
-# How to check if a value/item is present inside a list or not?  We use in / not in membership operator.
+# How to check if a value/item is present inside a list or not?
 
-print(users)
-print('Dave' in users)
+print('Dave' in users)               We use in / not in membership operator.
 print('Dave' in data)
 print('Dave' in emptylist)
 
