@@ -172,6 +172,7 @@ Jimmy
 ['Robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert']
 
 # How to remove or delete a specific user or item from a list?
+# we use the keyword del which stands for delete.
 
 del users[0]                                           
 print(users)
