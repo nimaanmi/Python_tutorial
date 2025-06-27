@@ -86,7 +86,7 @@ Output:
 
 users = ['Dave', 'John', 'Sara']
 
-users.append('Elsa')                                    # by deafult it'll add to the end of the list.
+users.append('Elsa')              # append() method takes exactly one argument, nothing more. By deafult it'll be added to the end of the list.
 print(users)
 
 Output:
