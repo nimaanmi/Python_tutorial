@@ -82,7 +82,7 @@ Output:
 3
 ############################################################################################
 
-# Adding items to existing lists.
+# Adding items to an existing list.
 
 users = ['Dave', 'John', 'Sara']
 data = ['Dave', 42, True]
