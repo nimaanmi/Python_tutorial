@@ -135,7 +135,7 @@ Output:
 ['Bob', 'Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
 
 # Adding or inserting more than 1 value at a specific position without replacing the existing item.
-# we can user bracket notation
+# we use bracket notation
 
 users[2:2] = ['Eddie', 'Alex']                           # We could choose 4:4 or 7:7
 print(users)
