@@ -125,10 +125,16 @@ data = ['Dave', 42, True]
 Output:
 #['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy', 'Dave', 42, <class 'bool'>]
 
-# 
+# Adding / inserting items to a specific position in a list.
 
 users.insert(0, 'Bob')                                  # we can add the items anywhere in the list.
 print(users)
+# Inside the insert() list method, the first argument is the index number, and the second argument is the item name.
+
+Output:
+['Bob', 'Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
+
+#
 
 users[2:] = ['Eddie', 'Alex']                           # how to add items in the list anywhere || without replacing the existing item.. We could choose 4:4 or 7:7
 print(users)
