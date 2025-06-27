@@ -198,18 +198,29 @@ Output:
 []
 ############################################################################################
 
+# Sorting a list.
+
 users = ['Jimmy', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert']
 data = []
 
 print(users)
 
-#users.sort()                                            # It sorts alphabetically
+#users.sort()           # It sorts alphabetically
 #print(users)
 
-# sorting takes caps letter first then the small letters by default || here we replaced the first index with dave and then sorted it.
+Output:
+['Alex', 'Elsa', 'JPJ', 'Jason', 'John', 'Robert', 'Sara']
+
+# sorting takes caps letter first then the small letters by default. Replace the first index with 'dave' and then sort it.
 users[1:2] = ['dave']
 users.sort()
 print(users)
+
+Output:
+['Elsa', 'JPJ', 'Jason', 'John', 'Robert', 'Sara', 'dave']
+
+# 
+
 
 users.sort(key=str.lower)                                # how to sort from lowered letters to caps letters alphabetically.
 print(users)
