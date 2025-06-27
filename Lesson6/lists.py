@@ -156,6 +156,7 @@ Output:
 users.remove('Bob')                                     
 print(users)
 # We can also use index to remove an item from a list. || users.remove(users[1]) || It'll remove Robert from index 1.
+# However, remove() method does not take a range of indexes.
 
 Output: 
 ['Robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
