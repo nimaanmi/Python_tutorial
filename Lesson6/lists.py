@@ -219,17 +219,15 @@ print(users)
 Output:
 ['Elsa', 'JPJ', 'Jason', 'John', 'Robert', 'Sara', 'dave']
 
-# 
+# Sorting with small letters first and then capital letters.
 
-
-users.sort(key=str.lower)                                # how to sort from lowered letters to caps letters alphabetically.
+users.sort(key=str.lower)                              
 print(users)
 
 Output:
-Output:
-#['Alex', 'Elsa', 'Jason', 'Jimmy', 'John', 'Robert', 'Sara']
-['Elsa', 'Jason', 'Jimmy', 'John', 'Robert', 'Sara', 'dave']
 ['dave', 'Elsa', 'Jason', 'Jimmy', 'John', 'Robert', 'Sara']
+
+# Sorting only works on same data types. It wouldn't work on different data types.
 ############################################################################################
 
 nums = [4, 42, 78, 1, 5]
