@@ -103,7 +103,7 @@ print(users)
 Output:
 ['Dave', 'John', 'Sara', 'Elsa', 'Jason']
 
-# Another way of adding an existing list to a new list or vise versa.
+# Another way of adding an existing list while creating a new list
 
 users.extend(['Roert', 'Jimmy'])                        # we can add new items to the list this way too. It allows to add more then 1 item.
 print(users)
