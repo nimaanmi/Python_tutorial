@@ -96,7 +96,8 @@ Output:
 # Adding an existing list to a new list.
 
 users += ['Jason']                
-print(users)                      
+print(users)    
+# we can add as many items as we want.
 # 1st list = users, 2nd list just created has one time called 'Jason'. So, here we have created a new list and add added to another list.
 # make sure to use the [] while creating the list, if we miss [] and just user 'Jason', it'll add each letter as an item.
 
@@ -107,6 +108,7 @@ Output:
 
 users.extend(['Roert', 'Jimmy'])                        # we can add new items to the list this way too. It allows to add more then 1 item.
 print(users)
+# we can add as many items as we want.
 
 Output:
 ['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
