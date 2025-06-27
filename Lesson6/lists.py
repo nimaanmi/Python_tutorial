@@ -82,22 +82,42 @@ Output:
 3
 ############################################################################################
 
-# Adding items to an existing list.
+# Adding items to an existing list. 
 
 users = ['Dave', 'John', 'Sara']
-data = ['Dave', 42, True]
 
-users.append('Elsa')                                    # how to add a single item to an existing list, it'll be added at the last.
+users.append('Elsa')                                    # by deafult it'll add to the end of the list.
 print(users)
 
-users += ['Jason']                                      # we can also create a new list and add it to the list
-print(users)
+Output:
+['Dave', 'John', 'Sara', 'Elsa']
+
+# Adding an existing list to a new list.
+
+users += ['Jason']                # 1st list = users, 2nd list has just one time called 'Jason'. So, here we have created a new list and add added to another list.
+print(users)                      # make sure to use the [] while creating the list, if we miss [] and just user 'Jason', it'll add each letter as an item.
+
+Output:
+['Dave', 'John', 'Sara', 'Elsa', 'Jason']
+
+# Another way of adding an existing list to a new list or vise versa.
 
 users.extend(['Roert', 'Jimmy'])                        # we can add new items to the list this way too. It allows to add more then 1 item.
 print(users)
 
+Output:
+['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
+
+# Passing pre-existing list to a new list.
+
+data = ['Dave', 42, True] 
 #users.extend(data)                                     # we can also add pre existing list to the current list
 #print(users)
+
+Output:
+#['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy', 'Dave', 42, <class 'bool'>]
+
+# 
 
 users.insert(0, 'Bob')                                  # we can add the items anywhere in the list.
 print(users)
@@ -124,10 +144,6 @@ data.clear()
 print(data)
 
 Output:
-['Dave', 'John', 'Sara', 'Elsa']
-['Dave', 'John', 'Sara', 'Elsa', 'Jason']
-['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
-#['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy', 'Dave', 42, True]
 ['Bob', 'Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
 ['Bob', 'Dave', 'Eddie', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
 ['Bob', 'Robers', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
