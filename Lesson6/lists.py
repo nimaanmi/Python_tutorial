@@ -98,18 +98,19 @@ Output:
 
 users += ['Jason']                
 print(users)    
-# we can add as many items as we want inside the [].
-# 1st list = users, 2nd list just created has one time called 'Jason'. So, here we have created a new list and add added to another list.
+# we can add as many items as we want as long as it's inside the [].
 # make sure to use the [] while creating the list, if we miss [] and just user 'Jason', it'll add each letter as an item.
+# 1st list = users, 2nd list just created has one time called 'Jason'. So, here we have created a new list and add added to another list.
 
 Output:
 ['Dave', 'John', 'Sara', 'Elsa', 'Jason']
 
 # Another way of adding an existing list while creating a new list
 
-users.extend(['Roert', 'Jimmy'])                        # we can add new items to the list this way too. It allows to add more then 1 item.
+users.extend(['Roert', 'Jimmy'])                        
 print(users)
-# append() too takes just 1 argument. We can add as many items as we want inside the []
+# even here, we can have as many items as we want as long as it's within the []. 
+# If we do not use the [], even extend() method takes just 1 argument, nothing more.
 
 Output:
 ['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
