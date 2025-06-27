@@ -134,10 +134,16 @@ print(users)
 Output:
 ['Bob', 'Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
 
-#
+# Inserting more than 1 value at a specific position without replacing the existing item.
+# we can user bracket notation
 
-users[2:] = ['Eddie', 'Alex']                           # how to add items in the list anywhere || without replacing the existing item.. We could choose 4:4 or 7:7
+users[2:2] = ['Eddie', 'Alex']                           # We could choose 4:4 or 7:7
 print(users)
+
+Output: 
+['Bob', 'Dave', 'Eddie', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
+
+# 
 
 users[1:3] = ['Roberts', 'JPJ']                         # how to replace items from the list || here it replaces excluding 0 from 1 till 2. 
 print(users)
