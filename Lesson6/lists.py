@@ -151,10 +151,16 @@ print(users)
 Output:
 ['Bob', 'Robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
 
-#
+# How to remove items from a list?
 
-users.remove('Bob')                                     # how to remove items from the list by using index/item names
+users.remove('Bob')                                     
 print(users)
+# We can also use index to remove an item from a list. || users.remove(users[1]) || It'll remove Robert from index 1.
+
+Output: 
+['Robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
+
+# 
 
 users.pop()                                             # how to remove the last item from the list
 print(users)
