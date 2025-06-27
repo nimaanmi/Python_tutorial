@@ -97,7 +97,7 @@ Output:
 
 users += ['Jason']                
 print(users)                      
-# 1st list = users, 2nd list has just one time called 'Jason'. So, here we have created a new list and add added to another list.
+# 1st list = users, 2nd list just created has one time called 'Jason'. So, here we have created a new list and add added to another list.
 # make sure to use the [] while creating the list, if we miss [] and just user 'Jason', it'll add each letter as an item.
 
 Output:
