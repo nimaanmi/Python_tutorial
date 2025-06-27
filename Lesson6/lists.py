@@ -115,7 +115,7 @@ print(users)
 Output:
 ['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
 
-# Passing pre-existing list to a new list.
+# Passing pre existing list to a new list.
 
 data = ['Dave', 42, True] 
 #users.extend(data)                                     # we can also add pre existing list to the current list
