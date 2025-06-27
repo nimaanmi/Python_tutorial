@@ -137,16 +137,21 @@ Output:
 # Adding or inserting more than 1 item in a list at a specific position without replacing the existing item.
 # we use [] bracket notation and make sure that the starting and ending index are same.
 
-users[2:2] = ['Eddie', 'Alex']                           # We could choose 4:4 or 7:7
+users[2:2] = ['Eddie', 'Alex']                          # We could choose 4:4 or 7:7
 print(users)
 
 Output: 
 ['Bob', 'Dave', 'Eddie', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
 
-# 
+# How to replace items in a list?
 
-users[1:3] = ['Roberts', 'JPJ']                         # how to replace items from the list || here it replaces excluding 0 from 1 till 2. 
+users[1:3] = ['Roberts', 'JPJ']                         # it replaces indexes 1 and 2 excluding index 3, since the ending value is always excluded in a range. 
 print(users)
+
+Output:
+['Bob', 'Robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
+
+#
 
 users.remove('Bob')                                     # how to remove items from the list by using index/item names
 print(users)
