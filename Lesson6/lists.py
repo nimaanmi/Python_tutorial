@@ -160,10 +160,17 @@ print(users)
 Output: 
 ['Robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
 
-# 
+# How to pop off the last user or item from a list?
 
-users.pop()                                             # how to remove the last item from the list
+print(users.pop())
 print(users)
+# The pop method will return that value even though it removes it from the list.
+
+Output:
+Jimmy
+['Robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert']
+
+# 
 
 del users[0]                                            # how to delete/remove item using index number  || we can also give a range of index [0:4]
 print(users)
