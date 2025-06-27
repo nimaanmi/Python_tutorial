@@ -89,6 +89,7 @@ users = ['Dave', 'John', 'Sara']
 users.append('Elsa')              
 print(users)
 # append() method takes exactly one argument, nothing more. By deafult it'll be added to the end of the list.
+# if we want to add more than 1 item, we can use [] bracket inside the append() method and separated by comma for each item.
 
 Output:
 ['Dave', 'John', 'Sara', 'Elsa']
@@ -97,7 +98,7 @@ Output:
 
 users += ['Jason']                
 print(users)    
-# we can add as many items as we want.
+# we can add as many items as we want inside the [].
 # 1st list = users, 2nd list just created has one time called 'Jason'. So, here we have created a new list and add added to another list.
 # make sure to use the [] while creating the list, if we miss [] and just user 'Jason', it'll add each letter as an item.
 
@@ -108,7 +109,7 @@ Output:
 
 users.extend(['Roert', 'Jimmy'])                        # we can add new items to the list this way too. It allows to add more then 1 item.
 print(users)
-# we can add as many items as we want.
+# append() too takes just 1 argument. We can add as many items as we want inside the []
 
 Output:
 ['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
