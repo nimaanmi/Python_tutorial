@@ -211,7 +211,7 @@ print(users)
 Output:
 ['Alex', 'Elsa', 'JPJ', 'Jason', 'John', 'Robert', 'Sara']
 
-# sorting sorts alphabetically a to z. However, caps comes first before small cases. So, replace the first index with 'dave' and then sort it again.
+# sorting sorts alphabetically a to z. However, capital letters comes first before small letters. So, replace the first index with 'dave' and then sort it again.
 users[1:2] = ['dave']
 users.sort()
 print(users)
