@@ -171,25 +171,29 @@ Output:
 Jimmy
 ['Robert', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert']
 
-# 
+# How to remove or delete a specific user or item from a list?
 
-del users[0]                                            # how to delete/remove item using index number  || we can also give a range of index [0:4]
+del users[0]                                           
 print(users)
+# we can also give a range of index [0:4]
+
+Output:
+['JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert']
+
+# We can also delete a list completely.
 
 #del data                                               # we can also delete a complete data list
 #print(data)
 
+Output:
+NameError: name 'data' is not defined
+
+# How to clear or empty a list, keeping the list present?
+
 data.clear()
 print(data)
 
-Output:
-['Bob', 'Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
-['Bob', 'Dave', 'Eddie', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
-['Bob', 'Robers', 'JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
-['Robert', 'JPP', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
-['Robert', 'JPP', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert']
-['Jimmy', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert']
-#NameError: name 'data' is not defined
+Output: 
 []
 ############################################################################################
 
