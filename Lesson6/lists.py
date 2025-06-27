@@ -120,6 +120,7 @@ Output:
 data = ['Dave', 42, True] 
 #users.extend(data)                                     # we can also add pre existing list to the current list
 #print(users)
+# It adds the 2nd  list to be back of the first list.
 
 Output:
 #['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy', 'Dave', 42, <class 'bool'>]
