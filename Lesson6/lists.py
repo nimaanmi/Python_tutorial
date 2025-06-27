@@ -189,7 +189,7 @@ Output:
 Output:
 NameError: name 'data' is not defined
 
-# How to clear or empty a list keeping the list present?
+# How to clear or empty a list without deleting the list?
 
 data.clear()
 print(data)
