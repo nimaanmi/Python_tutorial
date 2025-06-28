@@ -203,7 +203,7 @@ Output:
 
 # Sorting a list.
 
-users = ['Jimmy', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert']
+users = ['JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert']
 data = []
 
 print(users)
