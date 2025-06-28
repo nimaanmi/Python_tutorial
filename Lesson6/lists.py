@@ -202,6 +202,7 @@ Output:
 ############################################################################################
 
 # Sorting a list.
+# sorting is done alphabetically a to z. However, capital letters comes first before small letters.
 
 users = ['JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert']
 data = []
@@ -214,7 +215,8 @@ print(users)
 Output:
 ['Alex', 'Elsa', 'JPJ', 'Jason', 'John', 'Robert', 'Sara']
 
-# sorting sorts alphabetically a to z. However, capital letters comes first before small letters. So, replace the first index with 'dave' and then sort it again.
+# Replace the first index with 'dave' and then sort it again.
+
 users[1:2] = ['dave']
 users.sort()
 print(users)
