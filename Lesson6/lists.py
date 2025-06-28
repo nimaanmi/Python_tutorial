@@ -41,6 +41,7 @@ print(users[0])                      # prints the first item in the list.
 print(users[1])                      # prints the second item in the list.
 print(users[2])                      # prints the third item in the list.
 print(users[-1])                     # prints the last item in the list.
+# list indices must be integers or slices, not str
 
 Output:
 Dave
