@@ -179,7 +179,7 @@ Jimmy
 
 del users[0]                                           
 print(users)
-# we can also select a range of indexex to delete eg: [0:4]
+# we can also delete a range of items. eg: [0:4]
 
 Output:
 ['JPJ', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert']
