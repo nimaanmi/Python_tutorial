@@ -91,7 +91,6 @@ users = ['Dave', 'John', 'Sara']
 users.append('Elsa')              
 print(users)
 # append() method takes exactly one argument, nothing more. By deafult it'll be added to the end of the list.
-# if we want to add more than 1 item, we can use [] bracket inside the append() method and separated by comma for each item.
 
 Output:
 ['Dave', 'John', 'Sara', 'Elsa']
@@ -111,7 +110,7 @@ Output:
 
 users.extend(['Roert', 'Jimmy'])                        
 print(users)
-# even here, we can have as many items as we want as long as it's within the []. 
+# So, we are using [] inside the method parenthesis. We can have as many items as we want as long as it's within the []. 
 # If we do not use the [], even extend() method takes just 1 argument, nothing more.
 
 Output:
