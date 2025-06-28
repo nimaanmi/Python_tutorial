@@ -137,10 +137,11 @@ Output:
 ['Bob', 'Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
 
 # Adding or inserting more than 1 item in a list at a specific position without replacing the existing item.
-# we use [] bracket notation and make sure that the starting and ending index are same.
 
 users[2:2] = ['Eddie', 'Alex']                          # We could choose 4:4 or 7:7
 print(users)
+# we use [] bracket notation and make sure that the starting and ending indexes are same where we want to insert the item/items. 
+# If the starting and ending indexes are different, in place of inserting the items, it'll replace the existing items.
 
 Output: 
 ['Bob', 'Dave', 'Eddie', 'Alex', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy']
