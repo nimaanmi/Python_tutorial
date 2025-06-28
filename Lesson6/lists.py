@@ -224,7 +224,7 @@ print(users)
 Output:
 ['Elsa', 'JPJ', 'Jason', 'John', 'Robert', 'Sara', 'dave']
 
-# Sorting with small letters first and then capital letters.
+# How to sort with small letters first followed by capital letters?
 
 users.sort(key=str.lower)                              
 print(users)
