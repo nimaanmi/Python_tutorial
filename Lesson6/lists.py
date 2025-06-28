@@ -108,7 +108,7 @@ Output:
 
 # Another way of adding an existing list while creating a new list
 
-users.extend(['Roert', 'Jimmy'])                        
+users.extend(['Robert', 'Jimmy'])                        
 print(users)
 # So, we are using [] inside the method parenthesis. We can have as many items as we want as long as it's within the []. 
 # If we do not use the [], even extend() method takes just 1 argument, nothing more.
