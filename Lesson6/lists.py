@@ -127,7 +127,7 @@ data = ['Dave', 42, True]
 Output:
 #['Dave', 'John', 'Sara', 'Elsa', 'Jason', 'Robert', 'Jimmy', 'Dave', 42, <class 'bool'>]
 
-# Adding or inserting items to a specific position in a list.
+# Adding or inserting item to a specific position in a list.
 
 users.insert(0, 'Bob')                                  # we can add the items anywhere in the list.
 print(users)
