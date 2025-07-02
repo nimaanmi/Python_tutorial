@@ -265,7 +265,7 @@ Output:
 
 print(sorted(nums, rerverse=True))                   # eg: print(sorted(nums)) 
 print(nums)
-# we are using the sortted() function
+# we are using the global sortted() function
 
 Output:
 [78, 42, 5, 4, 1]
