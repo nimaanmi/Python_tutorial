@@ -270,9 +270,8 @@ print(nums)
 Output:
 [78, 42, 5, 4, 1]
 [5, 1, 78, 42, 4]
-############################################################################################
 
-# how to take a copy of the original list and sort without changing the original list.
+# how to make a copy of the original list and sort it without changing the original list?
 # we can do this in three different ways.
 
 nums = [4, 42, 78, 1, 5]
@@ -280,10 +279,10 @@ numscopy = nums.copy()
 mynums = list(nums)
 mycopy = nums[:]
 
-print(numscopy)					                                  # we just displaying the copied version of the original list.
-print(sorted(mynums, reverse=True))		                    # we are using global sorting and reversing the original list and displaying the copy.
-print(sorted(mycopy))				                              # we are using global sorting and displaying the copy.
-print(nums)					                                      # we are just displaying the original list.
+print(numscopy)					                                
+print(sorted(mynums, reverse=True))		                    
+print(sorted(mycopy))				                              
+print(nums)					                                     
 
 Output:
 [1, 4, 5, 41, 78]
