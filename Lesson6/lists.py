@@ -289,7 +289,6 @@ Output:
 [78, 41, 5, 4, 1]
 [1, 4, 5, 41, 78]
 [5, 1, 78, 41, 4]
-############################################################################################
 
 # We can also print the data type of a list.
 
@@ -299,7 +298,9 @@ Output:
 <class 'list'>
 ############################################################################################
 
-mylist = list([1, 'Neil', True])		# creating a list in a different way
+# We can also create a new list by using the list() contructor.
+
+mylist = list([1, 'Neil', True])		
 print(mylist)
 
 Output:
