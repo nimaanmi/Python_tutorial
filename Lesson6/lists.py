@@ -235,10 +235,17 @@ Output:
 # Sorting only works on same data types. It wouldn't work on different data types.
 ############################################################################################
 
+# reversing a list from end to start.
+
 nums = [4, 42, 78, 1, 5]
 
-nums.reverse()                                           # reversing the list from end to start
+nums.reverse()                                           
 print(nums)
+
+Output:
+[5, 1, 78, 42, 4]
+
+# 
 
 #nums.sort()                                             # sorting from lowest number to highest number in list
 #print(nums)
@@ -250,7 +257,6 @@ print(sorted(nums, rerverse=True))                       # how to keep the origi
 print(nums)
 
 Output:
-[5, 1, 78, 42, 4]
 #[1, 4, 5, 42, 78]
 #[78, 42, 5, 4, 1]
 [5, 1, 78, 42, 4]
