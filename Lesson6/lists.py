@@ -245,20 +245,30 @@ print(nums)
 Output:
 [5, 1, 78, 42, 4]
 
-# 
+# sorting numbers from lowest to highest in a list
 
-#nums.sort()                                             # sorting from lowest number to highest number in list
+#nums.sort()                                             
 #print(nums)
-
-#nums.sort(reverse=True)                                  # sorting integers from highest to lowest in list
-#print(nums)
-
-print(sorted(nums, rerverse=True))                       # how to keep the original list and do the sorting using global variable.
-print(nums)
 
 Output:
 #[1, 4, 5, 42, 78]
+
+# sorting numbers from highest to lowest in a list
+
+#nums.sort(reverse=True)                                  
+#print(nums)
+
+Output:
 #[78, 42, 5, 4, 1]
+
+# how to keep the original list without modifying it and do the sorting?
+
+print(sorted(nums, rerverse=True))                   # eg: print(sorted(nums)) 
+print(nums)
+# we are using the sortted() function
+
+Output:
+[78, 42, 5, 4, 1]
 [5, 1, 78, 42, 4]
 ############################################################################################
 
