@@ -307,9 +307,13 @@ Output:
 [1, 'Neil', True]
 ############################################################################################
 ############################################################################################
-
-
-
+############################################################################################
+############################################################################################
+############################################################################################
+############################################################################################
+############################################################################################
+############################################################################################
+############################################################################################
 
 Tuple
 Tuples are very much like List, except the data inside the Tuples will not change, and the order the data is in will not change.
@@ -317,22 +321,33 @@ Tuples are very much like List, except the data inside the Tuples will not chang
 A list contains a sequence of data surrounded by square brackets.
 A tuples contains a list of data surrounded by round brackets / parentheses.
 
-nums = (1, 4, 2, 8)
-print(nums)
-print(type(nums))
+A tuple is created using the () round brackets.
+
+mytuple = ('Dave', 42, True)
+print(mytuple)
+print(type(mytuple))
+
+Output: 
+('Dave', 42, True)
+<class 'tuple'>
+
+# Creating tuple using the tuple() constructor
+
+anothertuple = tuple((1, 4, 2, 8))
+print(anothertuple)
+print(type(anothertuple))
 
 Output:
 (1, 4, 2, 8)
 <class 'tuple'>
-############################################################################################
 
-newnums = tuple((1, 'Neil', True))                              # creating a tuple using the tuple constructor
-print(newnums)
-print(type(newnums))
+# Most of the things that we have learnt about list applies to tuples, but we have to keep in mind that tulpes cannot be changed.
+# However, if we need to do something with the tuple we can by copying it.
 
-Output:
-(1, 4, 2, 8)
-<class 'tuple'>
+
+
+
+
 ############################################################################################
 
 # How to check the memory and size of an objet?
