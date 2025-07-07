@@ -364,7 +364,7 @@ Output:
 ('Dave', 42, True)
 
 # When we assign values to a tuple that is called packing the tuple.
-# Likewise we can unpack the tuple and we can do this unpacking by the items/values into new variable names.
+# Likewise we can unpack the tuple and we can do this unpacking by assigning the items/values into new variable names.
 
 (one, two, *hey) = anothertuple                                   
 print(one)                         # it holds the first value
