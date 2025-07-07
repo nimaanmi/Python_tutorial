@@ -341,10 +341,20 @@ Output:
 (1, 4, 2, 8)
 <class 'tuple'>
 
-# Most of the things that we have learnt about list applies to tuples, but we have to keep in mind that tulpes cannot be changed.
-# However, if we need to do something with the tuple we can by copying it.
+# Most of the things that we have learnt about list applies to tuples. But we have to keep in mind that tulpes cannot be changed. 
+# If we want to do some changes to a tuple, we can by copying the original tuple and performing operations on the copied tuple.
 
+newlist = list(mytuple)        # we are copying the tuple named 'mytuple' and changing it to a list using the list() constructor.
+newlist.append('Neil')         # we are adding 'Nei' to the copied list.
+newtuple = tuple(newlist)      # we are copying the list named 'newlist' and changing it to a tuple using the tuple() constructor.
+print(newtuple)   # changes only effect the copied tuple.
+print(mytuple)    # it does not change the original tuple.
 
+Output:
+('Dave', 42, True, 'Neil')
+('Dave', 42, True)
+
+# When we assign values to a tuple that is called packing the tuple.
 
 
 
