@@ -377,6 +377,27 @@ Output:
 4
 [2, 8]
 
+# we can have * anywhere and it'll hold rest of the values.
+
+(one, *two, hey) = anothertuple                                   
+print(one)      
+print(two)                    
+print(hey)                     
+
+Output:
+1
+[4, 2]
+8
+
+# we can check what methods are available on a list or a tuple by using the dob notation.
+
+# list
+print(data.)    # it'll show a bunch of methods available.
+
+# tuple has just 2 inbuilt methods.
+# 1. count()     #This method returns the number of times a specified value appears within the tuple.
+# 2. index()     #This method returns the index of the first occurrence of a specified value within the tuple.
+
 
 ############################################################################################
 
