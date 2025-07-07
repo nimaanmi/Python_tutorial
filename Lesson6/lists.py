@@ -389,7 +389,7 @@ Output:
 [4, 2]
 8
 
-# we can check what methods are available on a list or a tuple by using the dob notation.
+# we can check what methods are available on a list or a tuple by using the dot notation.
 
 # list
 print(data.)    # it'll show a bunch of methods available.
