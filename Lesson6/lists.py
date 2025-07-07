@@ -364,35 +364,20 @@ Output:
 ('Dave', 42, True)
 
 # When we assign values to a tuple that is called packing the tuple.
+# Likewise we can unpack the tuple and we can do this unpacking by the items/values into new variable names.
 
-
-
-############################################################################################
-
-# How to check the memory and size of an objet?
-import sys
-
-list_eg = [1, 2, 3, 'a', 'b', 'c', True, 3.14159]               # list
-tuple_eg = (1, 2, 3, 'a', 'b', 'c', True, 3.14159)              # tuple
-
-print('List size = ', sys.getsizeof(list_eg))
-print('Tuple size = ', sys.getsizeof(tuple_eg))
-
-Output:
-List size =  120
-Tuple size =  104
-############################################################################################
-
-tuple_eg2 = (1, 4, 2, 8)
-(one, two, *hey) = tuple_eg2                                      # How to unpack the tuple
-print(one)                                                        # it holds the first value
-print(two)                                                        # it holds the 2nd value
-print(hey)                                                        # it holds the rest of the values,, where ever we have * holds the rest of the values
+(one, two, *hey) = anothertuple                                   
+print(one)                         # it holds the first value
+print(two)                         # it holds the 2nd value
+print(hey)                         # it holds the remaining values. Where ever we have * holds the rest of the values
+# and notice they are unpacked into a list.
 
 Output:
 1
 4
 [2, 8]
+
+
 ############################################################################################
 
 tuple_eg2 = (1, 4, 2, 8, 2, 3, 2, 2, 2)
@@ -457,3 +442,18 @@ Age:  21
 Country:  Srilanka
 Knows Python?  False
      
+############################################################################################
+     
+# How to check the memory and size of an objet?
+import sys
+
+list_eg = [1, 2, 3, 'a', 'b', 'c', True, 3.14159]               # list
+tuple_eg = (1, 2, 3, 'a', 'b', 'c', True, 3.14159)              # tuple
+
+print('List size = ', sys.getsizeof(list_eg))
+print('Tuple size = ', sys.getsizeof(tuple_eg))
+
+Output:
+List size =  120
+Tuple size =  104
+############################################################################################
