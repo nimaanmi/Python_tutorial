@@ -344,6 +344,12 @@ Output:
 # Most of the things that we have learnt about list applies to tuples. But we have to keep in mind that tulpes cannot be changed. 
 # If we want to do some changes to a tuple, we can by copying the original tuple and performing operations on the copied tuple. It'll not change the original tuple.
 
+1. Take an original tuple.
+2. copy that to a list using the list() constructor.
+3. Make changes to the copied list.
+4. Copy that copied list to a tuple using the tuple() constructor.
+5. So, we have made changes to the copied list (in turn made changes to the copied tuple), but keeping the original tuple unchanged.
+
 newlist = list(mytuple)        # we are copying the tuple named 'mytuple' and changing it to a list using the list() constructor.
 newlist.append('Neil')         # we are adding 'Nei' to the copied list.
 newtuple = tuple(newlist)      # we are copying the list named 'newlist' and changing it to a tuple using the tuple() constructor.
