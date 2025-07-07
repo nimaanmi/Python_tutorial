@@ -342,7 +342,8 @@ Output:
 <class 'tuple'>
 
 # Most of the things that we have learnt about list applies to tuples. But we have to keep in mind that tulpes cannot be changed. 
-# If we want to make some changes to a tuple, we can by copying the original tuple and performing operations on the copied tuple. It'll not change the original tuple.
+# If we want to make some changes to a tuple, we can by Copying the original tuple to a list, then performing necessary changes to the list, then copying that list to a new tuple.
+# This will not change the oringal tuple.
 
 1. Take an original tuple.
 2. copy that to a list using the list() constructor.
