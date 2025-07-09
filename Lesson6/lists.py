@@ -397,6 +397,20 @@ Output:
 [4, 2]
 8
 
+# Another example of unpacking a tuple.
+
+survey = (21, 'Srilanka', False)
+age, country, knows_python = survey
+
+print('Age: ', age)
+print('Country: ', country)
+print('Knows Python? ', knows_python)
+
+Output:
+Age:  21
+Country:  Srilanka
+Knows Python?  False
+
 # we can check what methods are available on a list or a tuple by using the dot notation.
 
 # list
@@ -406,14 +420,13 @@ print(data.)    # it'll show a bunch of methods available.
 # 1. count()     #This method returns the number of times a specified value appears within the tuple.
 # 2. index()     #This method returns the index of the first occurrence of a specified value within the tuple.
 
+# Tuple count() method
+anothertuple = tuple((1, 4, 2, 8, 2, 2))          # added 2 twice at the end of the list.
 
-############################################################################################
-
-tuple_eg2 = (1, 4, 2, 8, 2, 3, 2, 2, 2)
-print(tuple_eg2.count(2)                                          # we are trying to check how many times number 2 is used.
+print(anothertuple.count(2))
 
 Output:
-5
+3
 ############################################################################################
 
 # how to check the time taken by an object?
@@ -455,21 +468,8 @@ Output:
 (1,)
 (1, 2)
 <class 'tuple'>
-############################################################################################
 
-# tuples assisnment or tuples with 1 element
 
-survey = (21, 'Srilanka', False)
-age, country, knows_python = survey
-
-print('Age: ', age)
-print('Country: ', country)
-print('Knows Python? ', knows_python)
-
-Output:
-Age:  21
-Country:  Srilanka
-Knows Python?  False
      
 ############################################################################################
      
