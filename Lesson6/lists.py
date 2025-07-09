@@ -397,20 +397,6 @@ Output:
 [4, 2]
 8
 
-# Another example of unpacking a tuple.
-
-survey = (21, 'Srilanka', False)
-age, country, knows_python = survey
-
-print('Age: ', age)
-print('Country: ', country)
-print('Knows Python? ', knows_python)
-
-Output:
-Age:  21
-Country:  Srilanka
-Knows Python?  False
-
 # we can check what methods are available on a list or a tuple by using the dot notation.
 
 # list
@@ -429,6 +415,21 @@ Output:
 3
 ############################################################################################
 
+# Another example of unpacking a tuple.
+
+survey = (21, 'Srilanka', False)
+age, country, knows_python = survey
+
+print('Age: ', age)
+print('Country: ', country)
+print('Knows Python? ', knows_python)
+
+Output:
+Age:  21
+Country:  Srilanka
+Knows Python?  False
+############################################################################################
+
 # how to check the time taken by an object?
 import timeit
 
@@ -439,7 +440,7 @@ print('List test: ', list_test)
 print('Tuple test: ', tuple_test)
 
 Output:
-List test:  0.07566610001958907                                   # it takes more time for a list.
+List test:  0.07566610001958907       # it takes more time for a list.
 Tuple test:  0.015406199963763356
 ############################################################################################
 
@@ -450,8 +451,8 @@ test2 = ('a', )
 print(test2)
 
 Output:
-a				                             # If we use just one character/word, it'll print it as a string.
-('a',)				                       # if we do not want it to print it as a string, we need to add a comma at the end of the tuple.
+a			# If we use just one character/word, it'll print it as a string.
+('a',)		# if we do not want it to print it as a string, we need to add a comma at the end of the tuple.
 ############################################################################################
 
 # We could also print tuples without using round brakcets / parentheses
@@ -468,9 +469,6 @@ Output:
 (1,)
 (1, 2)
 <class 'tuple'>
-
-
-     
 ############################################################################################
      
 # How to check the memory and size of an objet?
