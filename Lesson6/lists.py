@@ -446,15 +446,22 @@ Output:
 <class 'tuple'>
 ############################################################################################
 
+# If we use just one character/word, it'll print it as a string.
+# if we do not want it to print it as a string, we need to add a comma at the end of the tuple.
+
 test1 = ('a')
 print(test1)
+print(type(test1))
 
-test2 = ('a', )
+test2 = ('a',)
 print(test2)
+print(type(test2))
 
 Output:
-a			# If we use just one character/word, it'll print it as a string.
-('a',)		# if we do not want it to print it as a string, we need to add a comma at the end of the tuple.
+a
+<class 'str'>
+('a',)
+<class 'tuple'>
 ############################################################################################
      
 # How to check the memory and size of an objet?
