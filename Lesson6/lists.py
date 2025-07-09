@@ -430,8 +430,8 @@ Country:  Srilanka
 Knows Python?  False
 ############################################################################################
 
-# If we use just one character or word as an item in a tuple, it'll print it as a string.
-# if we do not want it as a string, we need to add a comma at the end of the tuple.
+# If we have a single item in a tuple, it'll print it as a string it it's a string, it'll print it as an integer if it's an integer and so on.
+# if we do not want it as a different data type, we need to add a comma at the end of the tuple to make it tuple.
 
 test1 = ('a')
 print(test1)
