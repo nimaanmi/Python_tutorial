@@ -452,15 +452,12 @@ a
 
 test1 = 1,
 test2 = 1, 2,
-test3 = 1, 2, 3,
 
 print(test1)
-print(test2)
-print(type(test3))
+print(type(test1))
 
 Output:
 (1,)
-(1, 2)
 <class 'tuple'>
 ############################################################################################
      
