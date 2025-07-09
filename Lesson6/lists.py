@@ -431,7 +431,7 @@ Knows Python?  False
 ############################################################################################
 
 # If we use just one character/word, it'll print it as a string.
-# if we do not want it to print it as a string, we need to add a comma at the end of the tuple.
+# if we do not want it as a string, we need to add a comma at the end of the tuple.
 
 test1 = ('a')
 print(test1)
