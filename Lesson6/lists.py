@@ -430,22 +430,6 @@ Country:  Srilanka
 Knows Python?  False
 ############################################################################################
 
-# We could also print tuples without using round brakcets / parentheses
-
-test1 = 1,
-test2 = 1, 2,
-test3 = 1, 2, 3,
-
-print(test1)
-print(test2)
-print(type(test3))
-
-Output:
-(1,)
-(1, 2)
-<class 'tuple'>
-############################################################################################
-
 # If we use just one character/word, it'll print it as a string.
 # if we do not want it to print it as a string, we need to add a comma at the end of the tuple.
 
@@ -461,6 +445,22 @@ Output:
 a
 <class 'str'>
 ('a',)
+<class 'tuple'>
+############################################################################################
+
+# We could also print tuples without using round brakcets / parentheses
+
+test1 = 1,
+test2 = 1, 2,
+test3 = 1, 2, 3,
+
+print(test1)
+print(test2)
+print(type(test3))
+
+Output:
+(1,)
+(1, 2)
 <class 'tuple'>
 ############################################################################################
      
