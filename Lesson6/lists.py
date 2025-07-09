@@ -430,31 +430,6 @@ Country:  Srilanka
 Knows Python?  False
 ############################################################################################
 
-# how to check the time taken by an object?
-import timeit
-
-list_test = timeit.timeit(stmt='[1, 2, 3, 4, 5]', number=1000000)
-tuple_test = timeit.timeit(stmt='(1, 2, 3, 4, 5)', number=1000000)
-
-print('List test: ', list_test)
-print('Tuple test: ', tuple_test)
-
-Output:
-List test:  0.07566610001958907       # it takes more time for a list.
-Tuple test:  0.015406199963763356
-############################################################################################
-
-test1 = ('a')
-print(test1)
-
-test2 = ('a', )
-print(test2)
-
-Output:
-a			# If we use just one character/word, it'll print it as a string.
-('a',)		# if we do not want it to print it as a string, we need to add a comma at the end of the tuple.
-############################################################################################
-
 # We could also print tuples without using round brakcets / parentheses
 
 test1 = 1,
@@ -470,6 +445,17 @@ Output:
 (1, 2)
 <class 'tuple'>
 ############################################################################################
+
+test1 = ('a')
+print(test1)
+
+test2 = ('a', )
+print(test2)
+
+Output:
+a			# If we use just one character/word, it'll print it as a string.
+('a',)		# if we do not want it to print it as a string, we need to add a comma at the end of the tuple.
+############################################################################################
      
 # How to check the memory and size of an objet?
 import sys
@@ -483,4 +469,18 @@ print('Tuple size = ', sys.getsizeof(tuple_eg))
 Output:
 List size =  120
 Tuple size =  104
+############################################################################################
+
+# how to check the time taken by an object?
+import timeit
+
+list_test = timeit.timeit(stmt='[1, 2, 3, 4, 5]', number=1000000)
+tuple_test = timeit.timeit(stmt='(1, 2, 3, 4, 5)', number=1000000)
+
+print('List test: ', list_test)
+print('Tuple test: ', tuple_test)
+
+Output:
+List test:  0.07566610001958907       # it takes more time for a list.
+Tuple test:  0.015406199963763356
 ############################################################################################
