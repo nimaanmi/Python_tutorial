@@ -460,7 +460,18 @@ Output:
 (1,)
 <class 'tuple'>
 ############################################################################################
-     
+
+# Finding the maximum and minimum values in a tuple.
+
+tuples_numbers = (100, 4, 8, 500, -1)
+print(max(tuples_numbers))
+print(min(tuples_numbers))
+
+Output:
+500
+-1
+############################################################################################
+
 # How to check the memory and size of an objet?
 import sys
 
