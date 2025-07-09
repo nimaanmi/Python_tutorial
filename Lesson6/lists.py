@@ -430,7 +430,7 @@ Country:  Srilanka
 Knows Python?  False
 ############################################################################################
 
-# If we use just one character/word, it'll print it as a string.
+# If we use just one character or word as an item in a tuple, it'll print it as a string.
 # if we do not want it as a string, we need to add a comma at the end of the tuple.
 
 test1 = ('a')
