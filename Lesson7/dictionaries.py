@@ -19,9 +19,39 @@ Output:
 # creating a dictionary using the dictionary constructor dict()
 
 band2 = dict({'vocals': 'Plant', 'guitar': 'Page'})
-band3 = dict(vocals='Plant', guitar='Page')
+print(band2)
+print(type(band2))
 
+Or
 
+band2 = dict({
+    'vocals': 'Plant', 'guitar': 'Page'
+})
+print(band2)
+print(type(band2))
+
+Output:
+{'vocals': 'Plant', 'guitar': 'Page'}
+<class 'dict'>
+
+# creating a dictionary using the dictionary constructor dict() without the curly brackets inside the constructor.
+
+band3 = dict(vocals='Plant', guitar='Page')        
+# we are not writing the key inside quotes ' ', and the key and value pairs here are separated by = sign and not by : sign.
+
+print(band3)
+print(type(band3))
+
+Output:
+{'vocals': 'Plant', 'guitar': 'Page'}
+<class 'dict'>
+
+# Finding the length of a dictionary.
+
+print(len(band))
+
+Output:
+2
 ########################################################################################
 
 # how to access items in dictionaries?
