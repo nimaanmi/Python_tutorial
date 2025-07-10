@@ -16,7 +16,7 @@ Output:
 {'vocals': 'Plant', 'guitar': 'Page'}
 <class 'dict'>
 
-# creating a dictionary using the dictionary constructor i.e., dict()
+# creating a dictionary using the dictionary constructor dict()
 
 band2 = dict({'vocals': 'Plant', 'guitar': 'Page'})
 band3 = dict(vocals='Plant', guitar='Page')
