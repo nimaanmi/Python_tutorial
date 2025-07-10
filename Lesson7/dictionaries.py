@@ -60,6 +60,15 @@ Output:
 # How to access a value using key in a dictionary?
 
 print(band['guitar'])
+print(band['vocals'])
+
+Output:
+Page
+Plant
+
+# How to access/get a value using key in a dictionary using a dictionary method?
+
+print(band.get('guitar'))
 print(band.get('vocals'))
 
 Output:
