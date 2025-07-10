@@ -2,7 +2,7 @@
 
 # Dictionaries are used to store items in key and value pairs. And they are created using the {} curly brackets or braces.
 
-# creating a dictionary
+# Creating a dictionary
 
 band = {
     'vocals': 'Plant',
