@@ -56,14 +56,8 @@ print(len(band))
 
 Output:
 2
-########################################################################################
 
-# how to access items in dictionaries?
-
-band = {
-    'vocals': 'Plant',
-    'guitar': 'Page'
-}
+# How to access items in a dictionary?
 
 print(band['guitar'])
 print(band.get('vocals'))
@@ -71,29 +65,15 @@ print(band.get('vocals'))
 Output:
 Page
 Plant
-########################################################################################
 
-# dictionaries are key and value pairs.
-# list all keys in dictionaries
-
-band = {
-    'vocals': 'Plant',
-    'guitar': 'Page'
-}
+# How to list all the keys in a dictionary?
 
 print(band.keys())
 
 Output:
 dict_keys(['vocals', 'guitar'])
-########################################################################################
 
-# dictionaries are key and value pairs.
-# list all values in dictionaries
-
-band = {
-    'vocals': 'Plant',
-    'guitar': 'Page'
-}
+# How to list all the values in a dictionary?
 
 print(band.values())
 
