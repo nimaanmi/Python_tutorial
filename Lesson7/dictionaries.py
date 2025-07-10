@@ -1,6 +1,6 @@
 # Dictionaries
 
-# Dictionaries are used to store data items in key value pairs and are represented by braces or curly brackets.
+# Dictionaries are used to store items in key value pairs and are represented by braces or curly brackets.
 # They come as key and value.
 
 # different ways of creating a dictionary
