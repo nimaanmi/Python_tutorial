@@ -2,28 +2,26 @@
 
 # Dictionaries are used to store items in key value pairs and are represented by braces or curly brackets.
 
-# different ways of creating a dictionary
+# creating a dictionary
 
 band = {
     'vocals': 'Plant',
     'guitar': 'Page'
 }
 
-band2 = dict({'vocals': 'Plant', 'guitar': 'Page'})
-band3 = dict(vocals='Plant', guitar='Page')
-
 print(band)
-print(band2)
-print(band3)
-print(len(band))
 print(type(band))
 
 Output:
 {'vocals': 'Plant', 'guitar': 'Page'}
-{'vocals': 'Plant', 'guitar': 'Page'}
-{'vocals': 'Plant', 'guitar': 'Page'}
-2
 <class 'dict'>
+
+# creating a dictionary using the dictionary constructor i.e., dict()
+
+band2 = dict({'vocals': 'Plant', 'guitar': 'Page'})
+band3 = dict(vocals='Plant', guitar='Page')
+
+
 ########################################################################################
 
 # how to access items in dictionaries?
