@@ -57,7 +57,7 @@ print(len(band))
 Output:
 2
 
-# How to access a value using a key in a dictionary?
+# How to access a value using key in a dictionary?
 
 print(band['guitar'])
 print(band.get('vocals'))
