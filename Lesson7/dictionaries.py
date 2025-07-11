@@ -89,14 +89,14 @@ print(band.values())
 Output:
 dict_values(['Plant', 'Page'])
 
-# How to list all the key value pairs/items in a dictionary as TUPLES?
+# How to list all the key value pairs / items in a dictionary as TUPLES?
 
 band = {
     'vocals': 'Plant',
     'guitar': 'Page'
 }
 
-print(band.items())        # It prints all the key value pairs/items of a dictionary as tuples inside a list.
+print(band.items())        # It prints all the key value pairs / items of a dictionary as tuples inside a list.
 
 Output:
 dict_items([('vocals', 'Plant'), ('guitar', 'Page')])        
