@@ -100,26 +100,23 @@ print(band.items())        # It prints all the key value pairs/items of a dictio
 
 Output:
 dict_items([('vocals', 'Plant'), ('guitar', 'Page')])        
-########################################################################################
 
-# verify if a key exists in a dictionary
+# How to check if a key exists in a dictionary?
 
 band = {
     'vocals': 'Plant',
     'guitar': 'Page'
 }
-band2 = dict({'vocals': 'Plant', 'guitar': 'Page'})
 
-print('guitar' in band)
-print('triangle' in band2)
+print('guitar' in band)        # we can only checks for keys, and not values.
+print('triangle' in band)
 
 Output:
 
 True
 False
-########################################################################################
 
-# how to change values in dictionaries
+# How to change values in a dictionary?
 
 band = {
     'vocals': 'Plant',
