@@ -9,7 +9,6 @@ band = {
     'guitar': 'Page'
 }
 
-# key is written inside quotes. 
 # key and value pairs are separated by :
 # Each item in a dictionary is separated by a comma ,
 
