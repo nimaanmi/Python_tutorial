@@ -117,6 +117,7 @@ True
 False
 
 # How to change/update values in a dictionary?
+# we can do this in 2 ways.
 
 band = {
     'vocals': 'Plant',
