@@ -56,7 +56,7 @@ print(len(band))
 Output:
 2
 
-# How to access a value pair using a key in a dictionary?
+# How to access a value in a key value pair using a key in a dictionary?
 
 print(band['guitar'])
 print(band['vocals'])
@@ -65,7 +65,7 @@ Output:
 Page
 Plant
 
-# How to access/get a value pair using a key in a dictionary using a dictionary method?
+# How to access/get a value in a key value pair using a key in a dictionary using a dictionary method?
 
 print(band.get('guitar'))
 print(band.get('vocals'))
