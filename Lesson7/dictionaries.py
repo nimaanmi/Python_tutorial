@@ -139,7 +139,7 @@ Output:
 Output:
 # {'vocals': 'motels', 'guitar': 'Page'}
 
-# How to add key value pairs / items in a dictionary?
+# How to add / insert key value pairs / items in a dictionary?
 
 band = {
     'vocals': 'Coverdale',
