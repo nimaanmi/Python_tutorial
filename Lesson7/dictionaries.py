@@ -116,22 +116,42 @@ Output:
 True
 False
 
-# How to change values in a dictionary?
+# How to change/update values in a dictionary?
 
 band = {
     'vocals': 'Plant',
     'guitar': 'Page'
 }
 
+#1
 band['vocals'] = 'Coverdale'
-band.update({'bass': 'JPJ'})
+
+print(band)
+
+Output:
+{'vocals': 'Coverdale', 'guitar': 'Page'}
+
+#2
+# band.update({'vocals': 'motels'})
+# print(band)
+
+Output:
+# {'vocals': 'motels', 'guitar': 'Page'}
+
+# How to add key value pairs / items in a dictionary?
+
+band = {
+    'vocals': 'Coverdale',
+    'guitar': 'Page'
+}
+
+band.update({'bass': 'JPJ'})    # we can add as many items as we want.
 print(band)
 
 Output:
 {'vocals': 'Coverdale', 'guitar': 'Page', 'bass': 'JPJ'}
-########################################################################################
 
-# # remove items from dictionaries
+# # How to remove items from a dictionary?
 
 # band = {
 #     'vocals': 'Plant',
