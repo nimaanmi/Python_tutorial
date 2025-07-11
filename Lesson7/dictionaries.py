@@ -89,7 +89,7 @@ print(band.values())
 Output:
 dict_values(['Plant', 'Page'])
 
-# How to list all the key value pairs as TUPLES.
+# How to list all the key value pairs/items in a dictionary as TUPLES?
 
 band = {
     'vocals': 'Plant',
