@@ -80,7 +80,7 @@ Plant
 print(band.keys())
 
 Output:
-dict_keys(['vocals', 'guitar'])
+dict_keys(['vocals', 'guitar'])        # It lists all the keys inside a list.
 
 # How to list all the values in a dictionary?
 
@@ -88,9 +88,8 @@ print(band.values())
 
 Output:
 dict_values(['Plant', 'Page'])
-########################################################################################
 
-# list of all key and value pairs as TUPLES.
+# How to list all the key value pairs as TUPLES.
 
 band = {
     'vocals': 'Plant',
@@ -100,7 +99,7 @@ band = {
 print(band.items())
 
 Output:
-dict_items([('vocals', 'Plant'), ('guitar', 'Page')])
+dict_items([('vocals', 'Plant'), ('guitar', 'Page')])        # It lists all the key value pairs as tuples inside a list.
 ########################################################################################
 
 # verify if a key exists in a dictionary
