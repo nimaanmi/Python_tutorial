@@ -96,10 +96,10 @@ band = {
     'guitar': 'Page'
 }
 
-print(band.items())
+print(band.items())        # It prints all the key value pairs/items of a dictionary as tuples inside a list.
 
 Output:
-dict_items([('vocals', 'Plant'), ('guitar', 'Page')])        # It lists all the key value pairs as tuples inside a list.
+dict_items([('vocals', 'Plant'), ('guitar', 'Page')])        
 ########################################################################################
 
 # verify if a key exists in a dictionary
