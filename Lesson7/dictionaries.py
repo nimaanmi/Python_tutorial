@@ -69,6 +69,7 @@ Plant
 
 print(band.get('guitar'))
 print(band.get('vocals'))
+# if the key is a string, write is inside '' quotes, if the key is not a string then we do not need to write it inside '' quotes.
 
 Output:
 Page
