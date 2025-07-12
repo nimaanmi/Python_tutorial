@@ -125,7 +125,7 @@ band = {
 }
 
 #1
-band['vocals'] = 'Coverdale'
+band['vocals'] = 'Coverdale'           # It takes just 1 argument.
 
 print(band)
 
@@ -133,7 +133,7 @@ Output:
 {'vocals': 'Coverdale', 'guitar': 'Page'}
 
 #2
-# band.update({'vocals': 'motels'})
+# band.update({'vocals': 'motels'})    # It can take as many arguement as we want.
 # print(band)
 
 Output:
@@ -146,8 +146,9 @@ band = {
     'guitar': 'Page'
 }
 
-band.update({'bass': 'JPJ'})    # we can add as many items as we want.
+band.update({'bass': 'JPJ'})    
 print(band)
+# we can add as many items as we want.
 
 Output:
 {'vocals': 'Coverdale', 'guitar': 'Page', 'bass': 'JPJ'}
