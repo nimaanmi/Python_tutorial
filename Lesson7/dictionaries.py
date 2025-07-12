@@ -148,7 +148,8 @@ band = {
 
 band.update({'bass': 'JPJ'})    
 print(band)
-# we can add as many items as we want.
+# It'll add / insert the key value pair at the end of the dictionary.
+# we can add as many key value pairs / items as we want.
 
 Output:
 {'vocals': 'Coverdale', 'guitar': 'Page', 'bass': 'JPJ'}
