@@ -146,6 +146,14 @@ band = {
     'guitar': 'Page'
 }
 
+#1. 
+#band['mango'] = 'Tree'
+#print(band)
+
+#Output:
+#{'vocals': 'Coverdale', 'guitar': 'Page', 'drums': 'Bonham', 'Mango': 'Tree'}
+
+#2. 
 band.update({'bass': 'JPJ'})    
 print(band)
 # It'll add / insert the key value pair at the end of the dictionary.
@@ -154,48 +162,38 @@ print(band)
 Output:
 {'vocals': 'Coverdale', 'guitar': 'Page', 'bass': 'JPJ'}
 
-# # How to remove items from a dictionary?
 
-# band = {
-#     'vocals': 'Plant',
-#     'guitar': 'Page',
-#     'bass': 'JPJ'
-# }
 
-# print(band.pop('vocals'))
-# print(band)
-
-# Output:
-# Coverdale
-# {'guitar': 'Page', 'bass': 'JPJ'}
-########################################################################################
-
-# remove items from dictionaries
+# How to remove items from a dictionary?
 
 band = {
-    'vocals': 'Plant',
+    'vocals': 'Coverdale',
     'guitar': 'Page',
-    'bass': 'JPJ'
+    'brass': 'JPJ'
 }
 
-print(band.pop('bass'))
-print(band)
-
-band['drums'] = 'Bonham'
-print(band)
-
-print(band.popitem())                                        # remove the last entered item/ key,value pair, in this case drums: Bonham
-print(band)
+# print(band.pop('bass'))    # It'll return just the value and not the entire key value pair. But when we print the updated dictionary, it'll no longer have that key value pair anymore.
+# print(band)
 
 Output:
 JPJ
-{'vocals': 'Plant', 'guitar': 'Page'}
-{'vocals': 'Plant', 'guitar': 'Page', 'drums': 'Bonham'}
-('drums', 'Bonham')
-{'vocals': 'Plant', 'guitar': 'Page'}
-########################################################################################
+{'vocals': 'Coverdale', 'guitar': 'Page'}
 
-# delete and clear items in dictionaries
+# How to remove the last entered key value pair / item?
+
+band['drums'] = 'Bonham'    # adding a new item.
+print(band)
+
+print(band.popitem())                                        
+print(band)
+
+Output:
+{'vocals': 'Coverdale', 'guitar': 'Page', 'drums': 'Bonham'}
+('drums', 'Bonham')
+{'vocals': 'Coverdale', 'guitar': 'Page'}
+
+
+# How to delete items from a dictionary?
 
 band = {
     'vocals': 'Plant',
