@@ -413,6 +413,14 @@ print(anothertuple.count(2))
 
 Output:
 3
+
+# Tuple index() method
+tuple_4 = ('apple', 'banana', 'cherry', 'banana', 'date')
+index_of_banana = tuple_4.index('banana')
+print(f"Index of 'banana': {index_of_banana}")
+
+Output:
+1
 ############################################################################################
 
 # Another example of unpacking a tuple.
