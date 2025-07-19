@@ -225,12 +225,13 @@ Output:
 #     'vocals': 'Plant',
 #     'guitar': 'Page'
 # }
-# band2 = band                                    # creates a reference
-# print(band2)
+# band2 = band          # It doesn't create a copy but it creates a reference. .i.e., they are both referring to the same place in memory or the same dictionary.
+                        # meaning, it'll modify the original dictionary. 
+# print(band2)          
 # print(band)
 
 # band2['drums'] = 'Dave'
-# print(band)
+# print(band)       # here we are printing the unmodified original dictionary but see the result as it has modified. So, we do not use this way to copy dict.
 
 Output:
 {'vocals': 'Plant', 'guitar': 'Page'}
