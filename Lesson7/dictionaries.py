@@ -241,11 +241,6 @@ Output:
 
 # how to create copies in dictionaries? 
 
-band = {
-    'vocals': 'Plant',
-    'guitar': 'Page'
-}
-
 band2 = band.copy()
 band2['drums'] = 'Dave'
 print(band2)
