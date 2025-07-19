@@ -162,8 +162,6 @@ print(band)
 Output:
 {'vocals': 'Coverdale', 'guitar': 'Page', 'bass': 'JPJ'}
 
-
-
 # How to remove a specific item from a dictionary?
 
 band = {
