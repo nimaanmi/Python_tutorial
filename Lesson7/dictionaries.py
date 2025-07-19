@@ -190,28 +190,33 @@ Output:
 ('drums', 'Bonham')
 {'vocals': 'Coverdale', 'guitar': 'Page'}
 
-
 # How to delete items from a dictionary?
-
-band = {
-    'vocals': 'Plant',
-    'guitar': 'Page'
-}
-band2 = dict({'vocals': 'Plant', 'guitar': 'Page'})
 
 band['drum'] = 'Bonham'
 print(band)
-del band['drum']                                  # deletes a ke value pair.
+del band['drum']          
 print(band)
 
-band2.clear()                                     # clears a dictionary.
-print(band2)
-del band2                                         # deletes a dictionary.
+Output:
+{'vocals': 'coverdale', 'guitar': 'Page', 'drum': 'Bonham'}
+{'vocals': 'coverdale', 'guitar': 'Page'}
+
+# How to delete a dictionary?
+
+del band3
+print(band3)
 
 Output:
-{'vocals': 'Plant', 'guitar': 'Page', 'drum': 'Bonham'}
-{'vocals': 'Plant', 'guitar': 'Page'}
+NameError: name 'band' is not defined. Did you mean: 'band2'?
+
+# How to clear a dictionary?
+
+band2.clear()
+print(band2)
+
+Output:
 {}
+
 ########################################################################################
 
 # how not to copy in dictionaries, as it creates a reference and it modifies the original dictionary
