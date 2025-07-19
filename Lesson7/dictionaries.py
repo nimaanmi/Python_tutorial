@@ -164,7 +164,7 @@ Output:
 
 
 
-# How to remove items from a dictionary?
+# How to remove a specific item from a dictionary?
 
 band = {
     'vocals': 'Coverdale',
