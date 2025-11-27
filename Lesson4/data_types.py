@@ -1,8 +1,9 @@
 # How to name a file in python. 
-# We always use small letters. To separate words we use underscore.. So, data_types.py
+We always use small letters. To separate words we use underscore.. So, data_types.py
 
 # Data types: 
-# The first data type is String Data Type
+The first data type is String Data Type
+In Python, the string data type, abbreviated as str, represents sequences of characters and is used for handling textual data.
 
 # literal assignment
 
