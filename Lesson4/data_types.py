@@ -81,7 +81,7 @@ Highlight a word, Ctrl+D (can press a few times if more same words needs to be r
 ####################################################################################
 
 Concatenation
-Adding two strings. This is not a mathematical addition but just joining two objects.
+Adding two strings to form a larger string. This is not a mathematical addition but just joining two objects.
 
 first = 'Dave'
 last = 'Gary'
