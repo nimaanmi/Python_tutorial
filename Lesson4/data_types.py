@@ -12,15 +12,30 @@ We are literally assigning values to variables.
 
 first = 'Dave'
 last = 'Gary'
+message = 42
 
-print(type(first))		                # here it checks the data type of the object.
-print(type(first) == str)	            # here it checks the data type of the object and also checks if it's str then prints a boolean value.
-print(isinstance(first, str))	        # here it checks the data type of the object and also checks if it's str then prints a boolean value.
+print('')                              # prints an empty line.
+print(first)                           # prints the value of the object 'first'.
+print(message)                         # prints the value of the object 'message'.
+print(type(first))                     # Checks the data type of the object 'first' and then prints the data type.
+print(type(message))                   # Checks the data type of the object 'message' and then prints the data type.
+print(type(first) == str)              # Checks the data type of the object 'first', and also checks if it's a str then prints a boolean value.
+print(type(message) == str)            # Checks the data type of the object 'message', and also checks if it's a str then prints a boolean value.
+print(isinstance(first, str))          # Checks if the object 'first' is an instance of the data type str and then prints a boolean value.
+print(isinstance(message, int))        # Checks if the object 'message' is an instance of the data type str and then prints a boolean value.
+print(isinstance(message, str))        # Checks if the object 'message' is an instance of the data type str and then prints a boolean value.
+
 
 Output: 
+Dave
+42
 <class 'str'>
+<class 'int'>
+True
+False
 True
 True
+False
 #######
 
 type()
