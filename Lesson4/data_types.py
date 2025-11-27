@@ -61,7 +61,7 @@ print(isinstance(languages, tuple)) # Output: True
 ####################################################################################
 
 Constructor function:
-Assigning values using the contructor function str() || So, we are assigning a certain function while creating an object/variable.
+Assigning values using the contructor function str() while creating an object/variable.
 We can do this for other data types as well, i.e., int(), float(), bool() 
 
 pizza = str('Pepperoni')
