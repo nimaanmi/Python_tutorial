@@ -48,7 +48,8 @@ Ans: <class 'int'>	<-- prints the class as integer.
 #######
 
 isinstance()
-The isinstance() function can be used to test if an object is an instance of a specified data type. This will print a boolean value for each function call, indicating if the object is an instance of the given type:
+The isinstance() function can be used to test if an object is an instance of a specified data type.
+This will print a boolean value for each function call, indicating if the object is an instance of the given type:
 
 word = "purple"
 languages = ("Python", "JavaScript", "Go")
