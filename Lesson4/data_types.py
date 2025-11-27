@@ -61,8 +61,8 @@ print(isinstance(languages, tuple)) # Output: True
 ####################################################################################
 
 Constructor function:
-A constructor is a special method called when an object is created. Its purpose is to assign values to the data members within the class when an object is initialized.
-So, we are assigning a certain function while creating an object/variable.
+Assigning values using the contructor function str() || So, we are assigning a certain function while creating an object/variable.
+We can do this for other data types as well, i.e., int(), float(), bool() 
 
 pizza = str('Pepperoni')
 print(type(pizza))
