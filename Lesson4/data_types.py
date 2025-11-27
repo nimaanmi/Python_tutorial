@@ -73,6 +73,8 @@ Output:
 <class 'str'>
 True
 True
+
+How to replace words. Highlight a word, Ctrl+D (can press a few times if more same words needs to be replaced) and write the new word. Done.
 ####################################################################################
 
 Concatenation
