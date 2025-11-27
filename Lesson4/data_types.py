@@ -39,7 +39,7 @@ False
 #######
 
 type()
-The type() function prints the data type of an object.
+The type() function is used to print the data type of an object.
 
 message = 42
 print(type(messge))
