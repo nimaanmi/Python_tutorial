@@ -1,5 +1,5 @@
 # How to name a file in python. 
-# We always under small letters. To separate words we use underscore.. So, data_types.py
+# We always use small letters. To separate words we use underscore.. So, data_types.py
 
 # Data types: 
 # The first data type is String Data Type
