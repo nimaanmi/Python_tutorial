@@ -6,6 +6,20 @@ The first data type is String Data Type
 In Python, the string data type, abbreviated as str, represents sequences of characters and is used for handling textual data.
 
 # literal assignment
+We are literally assigning values to variables.
+
+first = 'Dave'
+last = 'Gary'
+
+print(type(first))		                # here it checks the data type of the object.
+print(type(first) == str)	            # here it checks the data type of the object and also checks if it's str then prints a boolean value.
+print(isinstance(first, str))	        # here it checks the data type of the object and also checks if it's str then prints a boolean value.
+
+Output: 
+<class 'str'>
+True
+True
+#######
 
 type()
 The type() function prints the data type of an object.
@@ -14,11 +28,6 @@ message = 42
 print(type(messge))
 
 Ans: <class 'int'>	<-- prints the class as integer.
-
-message = 'Welcome home'
-print(type(message))
-
-Ans: <class 'str'>	<-- prints the class as strings
 #######
 
 isinstance()
@@ -31,19 +40,6 @@ print(isinstance(word, str)) # Output: True
 print(isinstance(languages, list)) # Output: False
 print(isinstance(languages, tuple)) # Output: True
 
-
-#######
-first = 'Dave'
-last = 'Gary'
-
-print(type(first))		                # here it checks the data type of the object.
-print(type(first) == str)	            # here it checks the data type of the object and also checks if it's str then prints a boolean value.
-print(isinstance(first, str))	        # here it checks the data type of the object and also checks if it's str then prints a boolean value.
-
-Output: 
-<class 'str'>
-True
-True
 ####################################################################################
 
 Constructor function:
