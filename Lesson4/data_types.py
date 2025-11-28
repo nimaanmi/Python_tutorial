@@ -187,7 +187,8 @@ Where's this at\located?
 
 String Methods
 
-Methods and functions have similar purposes. Functions are independent blocks of code that can called from anywhere. While, methods are tied to objects or classes and needs an object or class instance to be invoked.
+Methods and functions have similar purposes. Functions are independent blocks of code that can called from anywhere.
+While, methods are tied to objects or classes and needs an object or class instance to be invoked.
 
 first = 'Dave'
 print(first)
