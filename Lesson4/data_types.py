@@ -232,10 +232,12 @@ Hey, how are you?
     I was just checking in.
                             All good?
 
+len() function
+len() function is used to calculate the number of items in an object. It operates on various data types that are considered "containers" or "sequences." 
 
 print(len(multiline))
-multiline += "     "		# added 5 spaces  	<-- we can do the same thing in a different way in the below line.
-multiline = "     " + multiline  # added 5 more spaces 
+multiline += "     "		        # Adding 5 spaces at the end of the string.
+multiline = "     " + multiline     # adding 5 spaces at the start of the string.
 print(len(multiline))
 
 Output:
