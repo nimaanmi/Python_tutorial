@@ -12,7 +12,7 @@ Python operators are divided into 7 groups: https://www.w3schools.com/python/pyt
 
 1. Arithmetic operators are used with numeric values to perform common mathematical operations.
 2. Assignment operators are used to assign values to variables.
-3. Comparison operators are used to compare two values
+3. Comparison operators are used to compare two values. || Returns True or False based on comparison.
 4. Logical operators are used to combine conditional statements  
    And operator [Returns True if both statements are true]
    Or  operator [Returns True if any one of the statements is true]
