@@ -246,15 +246,15 @@ Output:
 96
 ####################################################################################
 
-How to remove white spaces?
-
 yourName = input('What is your name? ')
 print("Hello, " + yourName)
 
 Output: 
 What is your name? Itachi
 Hello, Itachi
-#########
+####################################################################################
+
+How to remove white spaces?
 
 1. name01 = "   This   is   a strong      sentence !!! "
 print(name01)
