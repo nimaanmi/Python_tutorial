@@ -100,7 +100,11 @@ Output:
 Dave Gary!
 ####################################################################################
 
+Casting
+Casting in Python, also known as type conversion, is the process of converting a value from one data type to another. 
+
 Casting a number to a string
+
 decade = str(1980)
 print(type(decade))
 print(decade)
@@ -114,6 +118,21 @@ print(statement)
 
 Output:
 I like rock music from the 1980s.
+
+# Casting other data types:
+    
+int(): Converts a value to an integer.
+        x = int(3.14)  # x will be 3
+        y = int("10")  # y will be 10
+float(): Converts a value to a floating-point number.
+        a = float(5)   # a will be 5.0
+        b = float("2.7") # b will be 2.7
+str(): Converts a value to a string.
+        s = str(123)   # s will be "123"
+        t = str(True)  # t will be "True"
+bool(): Converts a value to a boolean.
+        p = bool(0)    # p will be False
+        q = bool("hello") # q will be True
 ####################################################################################
 
 Multiple lines                      We use '''''' 6 single apostrophe write the sentences in the middle of the apostrophes, which is after 3 apostrophes.
