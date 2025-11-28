@@ -194,8 +194,8 @@ String methods do not change the value of the variable/object. It returns a copy
 
 first = 'Dave'
 print(first)
-print(first.upper())              #.upper() is a method, here it makes all the characters in capital letters.
-print(first.lower())              #.lower() is a method, here it makes all the characters in smaller letters.
+print(first.upper())              #.upper() method returns a copy after it makes all the characters in capital letters.
+print(first.lower())              #.lower() method returns a copy after it makes all the characters in small letters.
 print(first)                      # it returns the same exact value before the string methods were used. So, it doesnt' change the value.
 
 Output:
@@ -211,9 +211,9 @@ Hey, how are you?
                             All good?
                             
 '''
-print(ultiline.title())
-print(multiline.replace('good', 'bad'))
-print(multiline)
+print(multiline.title())                    # .title() method returns a copy after it capitalizes the first letter of each word.
+print(multiline.replace('good', 'bad'))     # .replace() method returns a copy after it replaces one character with another.
+print(multiline)                            # prints the origial string without any changes.
 
 Output:
 Hey, how are you?
