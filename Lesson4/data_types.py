@@ -196,7 +196,7 @@ first = 'Dave'
 print(first)
 print(first.upper())              #.upper() is a method, here it makes all the characters in capital letters.
 print(first.lower())              #.lower() is a method, here it makes all the characters in smaller letters.
-print(first)                      # it returns the same exact value before using the above string methods.
+print(first)                      # it returns the same exact value before the string methods were used. So, it doesnt' change the value.
 
 Output:
 Dave
