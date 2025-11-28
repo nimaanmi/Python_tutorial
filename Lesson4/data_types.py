@@ -190,13 +190,13 @@ String Methods
 Methods and functions have similar purposes. Functions are independent blocks of code that can called from anywhere.
 While, methods are tied to objects or classes and needs an object or class instance to be invoked.
 
-The string method doesn't change the value of the variable/object. It just returns another value.
+The string methods do not change the value of the variable/object. It just returns another value.
 
 first = 'Dave'
 print(first)
-print(first.upper())              #.upper() is a method, here it makes all the characters in capital letter
-print(first.lower())
-print(first)
+print(first.upper())              #.upper() is a method, here it makes all the characters in capital letters.
+print(first.lower())              #.lower() is a method, here it makes all the characters in smaller letters.
+print(first)                      # it returns the same exact value before using the above string methods.
 
 Output:
 Dave
