@@ -234,6 +234,7 @@ Hey, how are you?
 
 len() function
 len() function is used to calculate the number of items in an object. It operates on various data types that are considered "containers" or "sequences." 
+len() always returns an integer.
 
 print(len(multiline))
 multiline += "     "		        # Adding 5 spaces at the end of the string.
