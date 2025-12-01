@@ -324,6 +324,8 @@ String slicing extracts a portion (substring) of a string.
 
 # String index values
 
+For String indexing or slicing we use a square bracket [].
+
 first = 'Dave is a great    tutor'
 print(first[1])				             # prints the second character as indexing/Arrays starts with 0
 print(first[0])				             # prints the first character as indexing/Arrays starts with 0
