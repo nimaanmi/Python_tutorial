@@ -325,15 +325,20 @@ String slicing extracts a portion (substring) of a string.
 # String index values
 
 first = 'Dave is a great    tutor'
-print(first[1])				                          # it prints the second letter, as Array starts with 0
-print(first[0])				                          # it prints the first letter, as Array starts with 0
-print(first[1:-1])			                        # it prints from 2nd letter and unto last second letter <-- so not a good idea using this code
-print(first[1:])			                          # it prints from the 2nd letter to the last letter.
-print(first[0:])			                          # it prints from first letter to last letter
+print(first[1])				             # prints the second character as indexing/Arrays starts with 0
+print(first[0])				             # prints the first character as indexing/Arrays starts with 0
+print(first[-1]                          # prints the last character. 
+print(first[1:-1])			             # When we provide a range, the index value that we give at the end of the range will not be part of the output.
+                                    # prints from the 2nd character unto last second character <-- so not a good idea using this code
+print(first[1:])			             # prints from the 2nd character to the last character.
+print(first[0:])			             # prints from first character to last character.
+
+
 
 Output:
 a
 D
+r
 ave is a great    tuto
 ave is a great    tutor
 Dave is a great    tutor
