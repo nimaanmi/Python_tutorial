@@ -314,12 +314,17 @@ Muffin..........  $2
 Cheesecake......  $4
 ####################################################################################
 
-String index values
+# String indexing and slicing
 
-import re
+String indexing allows access to a single character within a string by its position.
+Indices are zero-based, meaning the first character is at index 0, the second at index 1, and so on.
+Negative indices can also be used to count from the end of the string, with -1 referring to the last character, -2 to the second to last, and so forth.
+
+In Python, strings are ordered sequences of characters, and individual characters or substrings can be accessed using indexing and slicing.
+
+# String index values
 
 first = 'Dave is a great    tutor'
-first = re.sub(" +", " ", first)	              # we are making sure that there are no white spaces.
 print(first[1])				                          # it prints the second letter, as Array starts with 0
 print(first[0])				                          # it prints the first letter, as Array starts with 0
 print(first[1:-1])			                        # it prints from 2nd letter and unto last second letter <-- so not a good idea using this code
