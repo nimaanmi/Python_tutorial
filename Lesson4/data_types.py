@@ -339,6 +339,11 @@ ave is a great    tutor
 Dave is a great    tutor
 ####################################################################################
 
+Strings in Python are immutable.
+This means that once a string is created, its characters cannot be changed directly using indexing or slicing for assignment.
+Any operation that appears to modify a string, such as slicing and concatenating, actually creates a new string.
+####################################################################################
+
 Some methods return boolean data
 
 import re
