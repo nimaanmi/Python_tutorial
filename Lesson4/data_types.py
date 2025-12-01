@@ -320,7 +320,7 @@ String indexing allows access to a single character within a string by its posit
 Indices are zero-based, meaning the first character is at index 0, the second at index 1, and so on.
 Negative indices can also be used to count from the end of the string, with -1 referring to the last character, -2 to the second to last, and so forth.
 
-In Python, strings are ordered sequences of characters, and individual characters or substrings can be accessed using indexing and slicing.
+String slicing extracts a portion (substring) of a string.
 
 # String index values
 
