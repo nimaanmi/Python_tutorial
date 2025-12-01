@@ -334,6 +334,7 @@ print(first[1:-1])			             # When we provide a range, the index value tha
                                     # prints from the 2nd character unto last second character. 
 print(first[1:])			             # prints from the 2nd character to the last character.
 print(first[0:])			             # prints from first character to last character.
+print(first[1::2])                       # prints from second character to last character, skips every 2nd character.
 
 Output:
 D
@@ -342,6 +343,7 @@ r
 ave is a great    tuto
 ave is a great    tutor
 Dave is a great    tutor
+aei  ra  ttr
 ####################################################################################
 
 Strings in Python are immutable.
