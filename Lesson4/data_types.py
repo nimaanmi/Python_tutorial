@@ -110,7 +110,7 @@ print(type(decade))
 print(decade)
 
 Output:
-<class 'int'>
+<class 'str'>
 1980
 
 statement = 'I like rock music from the ' + decade + 's.'      # if we want to concatinate the value inside of a sentence, we'll need to caste the number to a string.
