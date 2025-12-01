@@ -335,8 +335,6 @@ print(first[1:-1])			             # When we provide a range, the index value tha
 print(first[1:])			             # prints from the 2nd character to the last character.
 print(first[0:])			             # prints from first character to last character.
 
-
-
 Output:
 D
 a
