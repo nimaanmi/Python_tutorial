@@ -8,7 +8,7 @@ playerchoice = input('Enter........\n1 for Rock\n2 for Paper\n3 for Scissor\n\n'
 player = int(playerchoice)
 
 if player < 1 or player > 3:
-    sys.exit('You need enter 1, 2, or 3')
+    sys.exit('You need enter 1, 2, or 3')                                               # We need to learn how to exit the program.
 
 computerchoice = random.choice('123')
 computer = int(computerchoice)
