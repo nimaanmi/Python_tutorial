@@ -351,10 +351,10 @@ This means that once a string is created, its characters cannot be changed direc
 Any operation that appears to modify a string, such as slicing and concatenating, actually creates a new string.
 ####################################################################################
 
-Some methods return boolean data
+Some string methods return boolean data
 
 print(first.startswith('D'))    		            # If the strings variable starts with D, it'll print True
-print(first.endswith('Z'))                      # If the strings variable ends with Z, it'll print True, if not false.
+print(first.endswith('Z'))                          # If the strings variable ends with Z, it'll print True, if not false.
 
 Ouput:
 True
