@@ -449,6 +449,11 @@ print(type(zip_code))
 
 Output:
 <class 'int'>
+
+# # Error if you attempt to cast incorrect data.
+# zip_value = int('New York')
+
+# ValueError: invalid literal for int() with base 10: 'New York'
 #################################################################################### 
 
 Python String count() Method
