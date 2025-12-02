@@ -353,11 +353,6 @@ Any operation that appears to modify a string, such as slicing and concatenating
 
 Some methods return boolean data
 
-import re
-
-first = 'Dave is a great      tutor       '
-first = re.sub(' +', ' ', first).strip()        # just for practice for white spaces.
-
 print(first.startswith('D'))    		            # If the strings variable starts with D, it'll print True
 print(first.endswith('Z'))                      # If the strings variable ends with Z, it'll print True, if not false.
 
