@@ -330,7 +330,7 @@ first = 'Dave is a great    tutor'
 print(first[0])				             # if we want the first first character we use the index value 0 as indexing/Arrays starts with 0
 print(first[1])				             # if we want the second character we use the index value 1 as indexing/Arrays starts with 0
 print(first[-1]                          # if we want the last character, we use index value -1. 
-print(first[1:-1])			             # When we provide a range, the index value that we give at the end of the range will not be part of the output.
+print(first[1:-1])	    # When we provide a range in indexing/arrays, the index value that we give at the end of the range will not be part of the output.
                                     # prints from the 2nd character unto last second character. 
 print(first[1:])			             # prints from the 2nd character to the last character.
 print(first[0:])			             # prints from first character to last character.
