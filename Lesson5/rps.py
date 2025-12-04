@@ -3,7 +3,7 @@ Creating a Rock Paper Scissor game
 import sys                          # this is needed to exist the statement
 import random                       # this is under to check random numbers.
 
-print('')
+print('')                                                                                # user input [ via input() function ] is always a string.
 playerchoice = input('Enter........\n1 for Rock\n2 for Paper\n3 for Scissor\n\n')       # keep cursor at the line end and press alt+z to wrap it properly.
 player = int(playerchoice)
 
