@@ -10,7 +10,7 @@ player = int(playerchoice)
 if player < 1 or player > 3:
     sys.exit('You need enter 1, 2, or 3')                                               # We need to learn how to exit the program.
 
-computerchoice = random.choice('123')
+computerchoice = random.choice('123')                                                    # we are ending computerchoice 123 as a string.
 computer = int(computerchoice)
 print('')
 print('You chose ' + playerchoice)
