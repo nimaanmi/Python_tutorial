@@ -50,7 +50,7 @@ import random
 from enum import Enum
 
 class RPS(Enum):
-    ROCK = 1                    # contsant variables are always named in capital letters.
+    ROCK = 1                    # constant variables are always named in capital letters.
     PAPER = 2
     SCISSOR = 3
 
