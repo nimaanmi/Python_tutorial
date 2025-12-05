@@ -4,10 +4,10 @@ In python arrays are called data structures or collections which refer to contai
 
 # Python collections (Arrays)  [Array starts with 0 and not 1]
 # There are 4 collection data types in the Python programming language:
-1. List              List is a collection which is ordered and changeable. Allows duplicate members
-2. Tuple             Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
-3. Set               Set is a collection which is unordered, unchangeable, and unindexed. No duplicate members.
-4. Dictonary         Dictonary is a collection which is ordered and changeable. No duplicate members.   
+1. List        [ ]      List is a collection which is ordered and changeable. Allows duplicate members
+2. Tuple       ( )      Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+3. Set         { }      Set is a collection which is unordered, unchangeable, and unindexed. No duplicate members.
+4. Dictonary   { }      Dictonary is a collection which is ordered and changeable. No duplicate members.   
 ############################################################################################
 
 List
