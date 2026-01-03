@@ -18,8 +18,8 @@ We are creating a variable named first and assigning a string value[data type] n
 We are using the built in print function. So, we write print, then open parenthesis close parenthesis and within the parenthesis we call in the object first.
 
 print('')                              # prints an empty line.
-print(first)                           # prints the assigned value of the object 'first'.
-print(message)                         # prints the assigned value of the object 'message'.
+print(first)                           # prints the assigned value of the object named 'first'.
+print(message)                         # prints the assigned value of the object named 'message'.
 print(type(first))                     # Checks the data type of the object 'first' and then prints the data type.
 print(type(message))                   # Checks the data type of the object 'message' and then prints the data type.
 print(type(first) == str)              # Checks the data type of the object 'first', and also checks if it's a str then prints a boolean value.
