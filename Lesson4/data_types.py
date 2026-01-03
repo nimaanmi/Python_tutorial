@@ -193,8 +193,8 @@ String Methods
 Methods and functions have similar purposes. Functions are independent blocks of code that can called from anywhere.
 While, methods are tied to objects or classes and needs an object or class instance to be invoked.
 
-String methods do not change the value of the variable/object. It returns a copy of the converted string.
 Note: Strings are immutable [that cannot be changed].
+String methods do not change the value of the variable/object. It returns a copy of the converted string.
 
 first = 'Dave'
 print(first)
