@@ -15,6 +15,7 @@ last = 'Gary'
 message = 42
 
 We are creating a variable named first and assigning a string value[data type] named Dave within single quotes using the equal to '=' operator.
+We are using the built in print function. So, we write print, then open parenthesis close parenthesis and within the parenthesis we call in the object first.
 
 print('')                              # prints an empty line.
 print(first)                           # prints the assigned value of the object 'first'.
