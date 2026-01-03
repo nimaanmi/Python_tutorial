@@ -194,6 +194,7 @@ Methods and functions have similar purposes. Functions are independent blocks of
 While, methods are tied to objects or classes and needs an object or class instance to be invoked.
 
 String methods do not change the value of the variable/object. It returns a copy of the converted string.
+Note: Strings are immutable [that cannot be changed].
 
 first = 'Dave'
 print(first)
