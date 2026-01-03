@@ -64,7 +64,7 @@ print(isinstance(languages, tuple)) # Output: True
 ####################################################################################
 
 Constructor function:
-Another way of assigning values is by using the constructor fucntion str() while creating an object/variable.
+Another way of assigning values is by using the constructor function str() while creating an object/variable.
 We can do this for other data types as well, i.e., int(), float(), bool() 
 
 pizza = str('Pepperoni')
