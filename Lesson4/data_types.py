@@ -14,6 +14,8 @@ first = 'Dave'
 last = 'Gary'
 message = 42
 
+We are creating a variable named first and assigning a string value[data type] named Dave within single quotes using the equal to '=' operator.
+
 print('')                              # prints an empty line.
 print(first)                           # prints the assigned value of the object 'first'.
 print(message)                         # prints the assigned value of the object 'message'.
