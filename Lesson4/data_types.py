@@ -375,6 +375,15 @@ print(isinstance(myvalue, bool))
 Output:
 <class 'bool'>
 True
+
+Boolean data type (bool) in Python is a subclass of the integer type (int).
+True is a special version of the integer 1.
+False is a special version of the integer 0.
+
+print(isinstance(myvalue, int))
+
+Output: 
+True
 ####################################################################################
 
 Numeric data types
